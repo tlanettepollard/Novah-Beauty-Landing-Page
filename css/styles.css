@@ -1,0 +1,54 @@
+/* Description: Master CSS file */
+
+/*****************************************
+Table Of Contents:
+- General Styles
+- Navigation
+- Header
+- Statistics
+- Introduction
+- Details 1
+- Services
+- Details 2
+- Invitation
+- Projects
+- Testimonials
+- Contact
+- Footer
+- Copyright
+- Back To Top Button
+- Extra Pages
+- Media Queries
+******************************************/
+
+/*****************************************
+Colors:
+******************************************/
+
+/**************************/
+/*     General Styles     */
+/**************************/
+* {
+	margin: 0;
+	padding: 0;
+	outline: 1px solid black;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body,
+html {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+body,
+p {
+	color: black;
+	font: 400 1rem/1.625 'Open Sans', sans-serif;
+}
