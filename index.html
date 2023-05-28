@@ -30,10 +30,12 @@
 		<title>Novah Webpage Title</title>
 
 		<!-- Styles -->
-		<link rel="stylesheet" href="" />
-		<!-- Fonts -->
-		<link rel="stylesheet" href="/web/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="/web/css/styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/bootstrap.min.css" />
+		<link rel="stylesheet" href="./css/styles.css" />
 
 		<!-- Favicons -->
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -46,7 +48,51 @@
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 		<link rel="manifest" href="/site.webmanifest" />
 	</head>
-    <body data-bs-spy="scroll" data-bs-target="#navbarExample"></body>
-        
-    
+	<body>
+		<!-- Navigation -->
+		<nav
+			id="navbarMain"
+			class="navbar navbar-expand-lg fixed-top navbar-light"
+			aria-label="Main navigation"
+		>
+			<div class="container-fluid">
+				<a class="navbar-brand d-lg-none" href="#">Novah</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarToggler"
+					aria-controls="navbarToggler"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div
+					class="collapse navbar-collapse justify-content-between"
+					id="navbarToggler"
+				>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a href="#" class="nav-link active">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link active">Link 1</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link active">Link 2</a>
+						</li>
+					</ul>
+
+					<a class="navbar-brand d-none d-lg-block" href="#">Novah</a>
+					<button>Appointment</button>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Scripts -->
+		<script src="/js/bootstrap.min.js"></script>
+		<script src="/js/scripts.js"></script>
+	</body>
 </html>
