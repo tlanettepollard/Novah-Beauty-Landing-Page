@@ -52,50 +52,110 @@
 		<!-- Navigation -->
 		<nav
 			id="navbarMain"
-			class="navbar navbar-expand-lg bg-body-tertiary"
+			class="navbar navbar-expand-lg bg-body-tertiary fixed-top"
 			aria-label="Main navigation"
 		>
 			<div class="container-fluid">
-				<a class="navbar-brand d-lg-none" href="#">Novah</a>
+				<a class="navbar-brand d-lg-none logo-text" href="#">Novah</a>
+
+				<!-- Image Logo - Use this if you are not using a text logo -->
+				<!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative" /></a> -->
+
 				<button
-					class="navbar-toggler"
+					class="navbar-toggler p-0 border-0"
 					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarToggler"
-					aria-controls="navbarToggler"
-					aria-expanded="false"
+					data-bs-toggle="offcanvas"
+					data-bs-target="#navbarOffcanvasLg"
+					aria-controls="navbarOffcanvasLg"
 					aria-label="Toggle navigation"
 				>
 					<span class="navbar-toggler-icon"></span>
 				</button>
 
 				<div
-					class="collapse navbar-collapse justify-content-between"
-					id="navbarToggler"
+					class="offcanvas offcanvas-start justify-content-start"
+					tabindex="-1"
+					id="navbarOffcanvasLg"
+					aria-labelledby="navbarOffcanvasLgLabel"
 				>
-					<ul class="navbar-nav">
-						<li class="nav-item">
-							<a href="#" class="nav-link active">Home</a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link active">Link 1</a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link active">Link 2</a>
-						</li>
-					</ul>
+					<div class="offcanvas-header">
+						<h4 class="offcanvas-title" id="offcanvasNavbarLabel">Novah</h4>
+						<button
+							type="button"
+							class="btn-close"
+							data-bs-dismiss="offcanvas"
+							aria-label="Close"
+						></button>
+					</div>
+					<div class="offcanvas-body justify-content-between">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a href="#" class="nav-link active">Home</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link active">Link 1</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link active">Link 2</a>
+							</li>
+						</ul>
 
-					<a class="navbar-brand d-none d-lg-block" href="#">Novah</a>
-					<ul>
-						<button>Appointment</button>
-					</ul>
+						<a class="navbar-brand d-none d-lg-block logo-text" href="#"
+							>Novah</a
+						>
+
+						<!-- Image Logo - Use this if you are not using a text logo -->
+						<!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative" /></a> -->
+
+						<ul>
+							<button>Button</button>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</nav>
 		<!-- End Navbar -->
 
 		<!-- Header -->
-		<header class="header"></header>
+		<header
+			class="header container-fluid mt-5 pt-5 pb-3 position-relative text-center overflow-hidden"
+		>
+			<div id="headerCarousel" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="item active">
+						<img
+							src="/images/20171220_033.jpg"
+							class="img-fluid header-image"
+						/>
+						<div class="carousel-caption">
+							<h3>Headline</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+								diam nonumy eirmod tempor invidunt ut labore et dolore magna
+								aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet,
+								consetetur sadipscing elitr
+							</p>
+						</div>
+					</div>
+					<!-- End Item -->
+					<div class="item">
+						<img
+							src="/images/20171220_033.jpg"
+							class="img-fluid header-image"
+						/>
+						<div class="carousel-caption">
+							<h3>Headline</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+								diam nonumy eirmod tempor invidunt ut labore et dolore magna
+								aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet,
+								consetetur sadipscing elitr
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
 		<main class="main">
 			<!-- Section 1 -->
 			<section>Intro</section>
