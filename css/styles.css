@@ -5,8 +5,8 @@ Table Of Contents:
 - General Styles
 - Navigation
 - Header
-- Statistics
 - Introduction
+- Statistics
 - Details 1
 - Services
 - Details 2
@@ -18,7 +18,7 @@ Table Of Contents:
 - Copyright
 - Back To Top Button
 - Extra Pages
-- Media Queries
+- Media Queries-- Included in each section
 ******************************************/
 
 /*****************************************
@@ -54,24 +54,13 @@ p {
 }
 
 /**************************/
-/*     Header    */
+/*     Header & Carousel  */
 /**************************/
+
 .carousel-inner,
 .carousel-item,
 .carousel-item.active {
 	height: 100vh;
-}
-
-@media screen and (min-height: 99.2rem) {
-	#headerCarousel {
-		margin-top: -5.859rem;
-	}
-
-	.carousel-inner,
-	.carousel-item,
-	.carousel-item.active {
-		height: 50vh;
-	}
 }
 
 .carousel-item:nth-child(1) {
@@ -100,4 +89,23 @@ p {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+}
+
+.content {
+	width: 90%;
+}
+
+@media (min-width: 992px) {
+	#headerCarousel {
+		margin-top: 3.8rem;
+	}
+
+	.carousel-inner,
+	.carousel-item,
+	.carousel-item.active {
+		height: 50vh;
+	}
+	.content {
+		width: 50%;
+	}
 }
