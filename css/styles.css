@@ -56,8 +56,46 @@ p {
 /**************************/
 /*     Header    */
 /**************************/
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+	height: 100vh;
+}
 
-.carousel .carousel-inner .carousel-item {
+@media screen and (min-height: 99.2rem) {
+	#headerCarousel {
+		margin-top: -5.859rem;
+	}
+
+	.carousel-inner,
+	.carousel-item,
+	.carousel-item.active {
+		height: 50vh;
+	}
+}
+
+.carousel-item:nth-child(1) {
+	background-image: url('../images/20171220_033.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.carousel-item:nth-child(2) {
+	background-image: url('../images/20171220_033.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.carousel-item:nth-child(3) {
+	background-image: url('../images/20171220_033.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.carousel-item:nth-child(4) {
 	background-image: url('../images/20171220_033.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
