@@ -57,7 +57,9 @@ p {
 /*     Header    */
 /**************************/
 
-.header img {
-	width: 100%;
-	max-height: 90rem;
+.carousel .carousel-inner .carousel-item {
+	background-image: url('../images/20171220_033.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }

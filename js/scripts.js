@@ -1,4 +1,4 @@
-$(document).ready(function () {
+/*$(document).ready(function () {
 	$('#headerCarousel').carousel({
 		interval: 4000,
 	});
@@ -21,4 +21,4 @@ $(document).ready(function () {
 			}
 			clickEvent = false;
 		});
-});
+}); */
