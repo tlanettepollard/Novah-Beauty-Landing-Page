@@ -335,7 +335,28 @@
 			</section>
 
 			<!-- Section 2 -->
-			<section class="gallery">Gallery</section>
+			<section class="gallery container-fluid">
+				<div class="gallery-header text-center my-5 py-3">
+					<h2 class="gallery-title">Image Gallery</h2>
+					<p class="gallery-text">Lorem ipsum dolor sit amet consectetur.</p>
+				</div>
+				<div class="gallery-container container">
+					<div
+						class="row position-relative"
+						data-masonry='{"percentPosition": true }'
+					>
+						<div class="col-sm-6 col-lg-4 mb-4 position-absolute top-0">
+							<div class="card">
+								<img
+									class="card-img img-fluid"
+									src="/images/Placeholder Images/884-416x416.jpg"
+									alt="placeholder"
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
 			<!-- Section 3 -->
 			<section>Services</section>
@@ -350,8 +371,11 @@
 			<section class="contact"></section>
 		</main>
 		<footer class="footer">Footer</footer>
+
 		<!-- Scripts -->
 		<script src="/js/bootstrap.min.js"></script>
+		<script src="/js/unpkg.com_masonry-layout@4.2.2_dist_masonry.pkgd.min.js"></script>
+		<script src="/js/unpkg.com_imagesloaded@5.0.0_imagesloaded.pkgd.min.js"></script>
 		<script src="/js/scripts.js"></script>
 	</body>
 </html>

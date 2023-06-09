@@ -6,7 +6,7 @@ Table Of Contents:
 - Navigation
 - Header
 - Introduction
-- Statistics
+- Gallery
 - Details 1
 - Services
 - Details 2
@@ -108,4 +108,17 @@ p {
 	.content {
 		width: 50%;
 	}
+}
+
+/**************************/
+/*     Introduction  */
+/**************************/
+
+/**************************/
+/*     Image Gallery  */
+/**************************/
+
+.gallery {
+	width: 100%;
+	height: 90rem;
 }
