@@ -124,3 +124,32 @@ p {
 	padding: 8rem 0;
 }
 
+.gallery .row {
+	padding: 0 0.4rem;
+}
+
+.column {
+	flex-basis: 100%;
+	max-width: 100%;
+	padding: 0 0.4rem;
+}
+
+.column img {
+	margin-top: 0.8rem;
+	vertical-align: middle;
+	width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+	.gallery .column {
+		flex-basis: 50%;
+		max-width: 50%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.gallery .column {
+		flex-basis: 33%;
+		max-width: 33%;
+	}
+}
