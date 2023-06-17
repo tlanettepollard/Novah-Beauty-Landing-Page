@@ -47,6 +47,12 @@
 			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
 		/>
 
+		<!-- Swiper CSS -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+		/>
+
 		<!-- Vendor CSS -->
 		<link rel="stylesheet" href="./css/normalize.css" />
 
@@ -351,11 +357,13 @@
 			</section>
 
 			<!-- Section 2 -->
-			<section class="gallery container-fluid mt-5 h-auto">
-				<div class="gallery-header text-center my-5 py-5">
+			<section class="gallery container-fluid h-auto">
+				<div class="gallery-header text-center mb-5">
 					<div class="container">
-						<h1 class="gallery-title">Image Gallery</h1>
-						<p class="gallery-text">Lorem ipsum dolor sit amet consectetur.</p>
+						<h2 class="gallery-title display-6 fw-bold py-3">Image Gallery</h2>
+						<p class="gallery-text mb-3 lead">
+							Lorem ipsum dolor sit amet consectetur.
+						</p>
 					</div>
 				</div>
 				<div class="gallery-content">
@@ -431,17 +439,17 @@
 			<!-- End of Gallery -->
 
 			<!-- Section 3 -->
-			<section class="services container-fluid mt-5 h-auto">
-				<div class="services-header text-center my-5 py-5">
+			<section class="services container-fluid h-auto my-5">
+				<div class="services-header text-center mb-5 py-5">
 					<div class="container">
-						<h1 class="services-title">Our Services</h1>
+						<h2 class="services-title display-6 fw-bold py-3">Our Services</h2>
 						<p class="services-text">Lorem ipsum dolor sit amet consectetur.</p>
 					</div>
 				</div>
-				<div class="services-content">
+				<div class="services-content py-5">
 					<div class="container">
 						<div class="row row-cols-1 row-cols-md-3 g-4">
-							<div class="col">
+							<div class="col py-5">
 								<div class="card">
 									<img
 										src="/images/Placeholder Images/800x600.svg"
@@ -461,7 +469,7 @@
 								</div>
 							</div>
 
-							<div class="col">
+							<div class="col py-5">
 								<div class="card">
 									<img
 										src="/images/Placeholder Images/800x600.svg"
@@ -481,7 +489,7 @@
 								</div>
 							</div>
 
-							<div class="col">
+							<div class="col py-5">
 								<div class="card">
 									<img
 										src="/images/Placeholder Images/800x600.svg"
@@ -506,64 +514,46 @@
 			</section>
 
 			<!-- Section 4 -->
-			<section class="testimonials-slider container-fluid mt-5">
-				<div
-					id="carouselTestimonial"
-					class="carousel carousel-dark"
-					data-bs-ride="carousel"
-				>
+			<section class="testimonials container-fluid mt-5">
+				<div class="testimonials-header text-center my-5">
 					<div class="container">
-						<div class="row container">
-							<div class="col-md-4">
-								<div class="testimonial-title">
-									<i class="bi bi-quote display-1"></i>
-									<h2 class="fw-bold display-6">What our customers say</h2>
-									<button
-										class="carousel-control-prev"
-										type="button"
-										data-bs-target="#carouselTestimonial"
-										data-bs-slide="prev"
-									>
-										<span
-											class="carousel-control-prev-icon"
-											aria-hidden="true"
-										></span>
-										<span class="visually-hidden">Previous</span>
-									</button>
-									<button
-										class="carousel-control-next"
-										type="button"
-										data-bs-target="#carouselTestimonial"
-										data-bs-slide="next"
-									>
-										<span
-											class="carousel-control-next-icon"
-											aria-hidden="true"
-										></span>
-										<span class="visually-hidden">Next</span>
-									</button>
-								</div>
-
-								<div class="col-md-8">
-									<div class="carousel-inner">
-										<div class="carousel-item active">
-											<div class="card">
-												<div class="img-wrapper">
+						<h2 class="testimonials-title display-6 fw-bold mb-3 py-3">
+							Our Awesome Customers
+						</h2>
+						<p class="testimonials-text">
+							Lorem ipsum dolor sit amet consectetur.
+						</p>
+					</div>
+				</div>
+				<div class="row align-items-center py-2">
+					<div class="position-relative">
+						<div class="swiper mySwiper position-relative">
+							<div class="swiper-wrapper mb-5">
+								<div class="swiper-slide">
+									<div class="card p-3">
+										<div class="card-body">
+											<div class="d-block mb-4">
+												<p>
+													<em class="text-muted">
+														Lorem ipsum dolor sit amet consectetur risus diam
+														convallis sodales aenean. Faucibus dignissim
+														nibh.&nbsp;</em
+													>
+												</p>
+											</div>
+											<div class="d-inline-flex">
+												<div class="md-3" style="min-width: 72px">
 													<img
-														src="/images/Placeholder Images/800x600.svg"
-														alt="..."
-														class="d-block w-100"
+														src="/images/Placeholder Images/user.png"
+														width="72"
+														height="72"
+														class="img-fluid rounded-circle"
+														alt=""
 													/>
 												</div>
-												<div class="card-body">
-													<h5 class="card-title">
-														Lorem ipsum dolor sit amet consectetur.
-													</h5>
-													<i class="bi bi-star-fill text-warning pe-1"></i>
-													<i class="bi bi-star-fill text-warning pe-1"></i>
-													<i class="bi bi-star-fill text-warning pe-1"></i>
-													<i class="bi bi-star-fill text-warning pe-1"></i>
-													<i class="bi bi-star-fill text-warning pe-1"></i>
+												<div class="d-block">
+													<p class="h5">Tamzin L. Peabody</p>
+													<p class="text-muted">Customer&nbsp;</p>
 												</div>
 											</div>
 										</div>
@@ -575,7 +565,7 @@
 				</div>
 			</section>
 
-			<!-- Section 4 -->
+			<!-- Section 5 -->
 			<section class="cta">Make your appointment</section>
 
 			<!-- Section 5 -->
@@ -591,6 +581,8 @@
 			crossorigin="anonymous"
 		></script>
 
+		<!-- Swiper JS-->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 		<!-- Developer Script-->
 		<script src="/js/scripts.js"></script>
 	</body>
