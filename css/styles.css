@@ -86,10 +86,11 @@ p {
 }
 
 .carousel-item:nth-child(4) {
-	background-image: url('../images/clarke-sanders-ULWsZZR1ayc-unsplash.jpg');
+	background-image: url('../images/clarke-sanders-JpCOGj0uIlI-unsplash.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	
 }
 
 @media screen and (min-width: 992px) {
