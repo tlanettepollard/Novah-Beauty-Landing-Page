@@ -31,7 +31,7 @@ Colors:
 * {
 	margin: 0;
 	padding: 0;
-	outline: 1px solid black;
+	outline: 1px solid white;
 }
 
 *,
@@ -45,12 +45,21 @@ html {
 	width: 100%;
 	height: 100%;
 	box-sizing: border-box;
+	background-color: #27130f;
 }
 
 body,
 p {
-	color: black;
+	color: #d9d9d9;
 	font: 400 1rem/1.625 'Open Sans', sans-serif;
+}
+
+/**************************/
+/*    Navigation  */
+/**************************/
+
+.navbar {
+	background-color: #eeefef !important;
 }
 
 /**************************/
@@ -60,42 +69,43 @@ p {
 .carousel-inner,
 .carousel-item,
 .carousel-item.active {
-	height: 100vh;
+	height: 35rem;
 }
 
 .carousel-item:nth-child(1) {
-	background-image: url('../images/20171220_033.jpg');
+	background-image: url('../images/jennifer-bedoya-5jySMpqi6xk-unsplash.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
 
 .carousel-item:nth-child(2) {
-	background-image: url('../images/20171220_033.jpg');
+	background-image: url('../images/jessica-felicio-F16KPYxfm6s-unsplash.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
 
 .carousel-item:nth-child(3) {
-	background-image: url('../images/20171220_033.jpg');
+	background-image: url('../images/eye-for-ebony-QhoDs-dFIdE-unsplash.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
 
 .carousel-item:nth-child(4) {
-	background-image: url('../images/20171220_033.jpg');
+	background-image: url('../images/leighann-blackwood-hx87JWG4yCI-unsplash.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center center;
+	background-position: bottom center;
+	
 }
 
-.content {
-	width: 90%;
+ .bg-dark {
+	 background-color: #552418 !important;
 }
 
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
 	#headerCarousel {
 		margin-top: 3.8rem;
 	}
@@ -103,10 +113,15 @@ p {
 	.carousel-inner,
 	.carousel-item,
 	.carousel-item.active {
-		height: 50vh;
+		height: 53rem;
 	}
-	.content {
-		width: 50%;
+}
+
+@media screen and (min-width: 1200px) {
+	.carousel-inner,
+	.carousel-item,
+	.carousel-item.active {
+		height: 80rem;
 	}
 }
 
