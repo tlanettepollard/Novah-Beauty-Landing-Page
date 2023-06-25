@@ -55,6 +55,14 @@ p {
 }
 
 /**************************/
+/*    Navigation  */
+/**************************/
+
+.navbar {
+	background-color: #eeefef !important;
+}
+
+/**************************/
 /*     Header & Carousel  */
 /**************************/
 
@@ -89,8 +97,12 @@ p {
 	background-image: url('../images/leighann-blackwood-hx87JWG4yCI-unsplash.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center center;
+	background-position: bottom center;
 	
+}
+
+ .bg-dark {
+	 background-color: #552418 !important;
 }
 
 @media screen and (min-width: 992px) {
