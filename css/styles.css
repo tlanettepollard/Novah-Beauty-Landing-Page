@@ -98,11 +98,10 @@ p {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom center;
-	
 }
 
- .bg-dark {
-	 background-color: #552418 !important;
+.bg-dark {
+	background-color: #552418 !important;
 }
 
 @media screen and (min-width: 992px) {
@@ -121,7 +120,12 @@ p {
 	.carousel-inner,
 	.carousel-item,
 	.carousel-item.active {
-		height: 80rem;
+		height: 60rem;
+	}
+
+	.carousel-caption {
+		top: auto;
+		bottom: 25%;
 	}
 }
 
