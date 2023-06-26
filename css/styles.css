@@ -125,7 +125,10 @@ p {
 
 	.carousel-caption {
 		top: auto;
-		bottom: 25%;
+		bottom: 15%;
+	}
+
+	.carousel-caption h2 {
 	}
 }
 
