@@ -28,7 +28,7 @@ Colors:
 * {
 	margin: 0;
 	padding: 0;
-	outline: 1px solid white;
+	//outline: 1px solid white;
 }
 
 *,
@@ -61,6 +61,10 @@ p {
 
 .navbar .navbar-toggler {
 	border-color: white !important;
+}
+
+.bg-dark {
+	background-color: #552418 !important;
 }
 
 /**************************/
@@ -106,16 +110,27 @@ p {
 }
 
 .custom-indicators li.active {
-	background-color: #b62519 !important;
+	background-color: #a62217 !important;
 	font-weight: 700;
 }
 
-.bg-dark {
+.carousel-item .bg-dark {
 	background-color: #552418 !important;
 }
 
 .opacity-75 {
 	opacity: 0.6 !important;
+}
+
+.bg-body-tertiary {
+	background-color: #faf4f0 !important;
+}
+.nav-pills {
+	margin-right: 4px !important;
+}
+.nav-pills > .active {
+	border: 2px solid #811a12 !important;
+	border-radius: 10px !important;
 }
 
 @media screen and (min-width: 992px) {
