@@ -110,7 +110,7 @@ p {
 }
 
 .custom-indicators li.active {
-	background-color: #a62217!important;
+	background-color: #a62217 !important;
 	font-weight: 700;
 }
 
@@ -128,7 +128,7 @@ p {
 .nav-pills {
 	margin-right: 4px !important;
 }
-.nav-pills >.active {
+.nav-pills > .active {
 	border: 2px solid #811a12 !important;
 	border-radius: 10px !important;
 }
