@@ -70,11 +70,11 @@
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 		<link rel="manifest" href="/site.webmanifest" />
 	</head>
-	<body>
+	<body id="top">
 		<!-- Navigation -->
 		<nav class="navbar navbar-expand-lg bg-dark navbar-light fixed-top">
 			<div class="container">
-				<a href="#home" class="navbar-brand text-light">Novah</a>
+				<a href="#" class="navbar-brand text-light">Novah</a>
 
 				<!-- Image Logo - Use this if you are not using a text logo -->
 				<!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative" /></a> -->
@@ -88,8 +88,8 @@
 					<span class="navbar-toggler-icon"></span>
 				</button>
 
-				<div class="collapse navbar-collapse" id="navMenu">
-					<ul class="navbar-nav ms-auto px-lg-4">
+				<div class="collapse navbar-collapse text-center" id="navMenu">
+					<ul class="navbar-nav text-center ms-auto px-lg-4">
 						<li class="nav-item">
 							<a href="#" class="nav-link active text-light">Home</a>
 						</li>
@@ -111,8 +111,10 @@
 							<a href="#contact" class="nav-link active text-light">Contact</a>
 						</li>
 					</ul>
-					<button class="btn btn-md btn-light link-dark">
-						<a href="#cta-book" class="">Book Now</a>
+					<button class="btn btn-md btn-light mt-4 mt-lg-0">
+						<a href="#cta-book" class="text-decoration-none link-dark"
+							>Book Now</a
+						>
 					</button>
 				</div>
 			</div>
@@ -772,13 +774,19 @@
 						class="navbar-nav d-flex flex-column flex-md-row justify-content-evenly align-items-center"
 					>
 						<li class="nav-item">
-							<a href="#" class="nav-link active">Home</a>
+							<a href="#top" class="nav-link active">Home</a>
 						</li>
 						<li class="nav-item">
-							<a href="#" class="nav-link active">Link 1</a>
+							<a href="#about" class="nav-link active">About</a>
 						</li>
 						<li class="nav-item">
-							<a href="#" class="nav-link active">Link 2</a>
+							<a href="#gallery" class="nav-link active">Gallery</a>
+						</li>
+						<li class="nav-item">
+							<a href="#services" class="nav-link active">Services</a>
+						</li>
+						<li class="nav-item">
+							<a href="#testimonials" class="nav-link active">Testimonials</a>
 						</li>
 					</ul>
 				</div>
@@ -806,7 +814,9 @@
 			<!-- /container -->
 			<hr class="hr" />
 			<div class="container copyright">
-				<p class="text-muted text-center">©️ 2023 RebelCow Web Design</p>
+				<p class="text-light-emphasis text-center">
+					©️ 2023 RebelCow Web Design
+				</p>
 			</div>
 		</footer>
 
