@@ -1,27 +1,20 @@
-/*$(document).ready(function () {
-	$('#headerCarousel').carousel({
-		interval: 4000,
-	});
-	let clickEvent = false;
-	$('#headerCarousel')
-		.on('click', '.nav a', function () {
-			clickEvent = true;
-			$('.nav li').removeClass('active');
-			$(this).parent().addClass('active');
-		})
-		.on('slide.bs.carousel', function (e) {
-			if (!clickEvent) {
-				let count = m$('.nav').children().length - 1;
-				let current = $('.nav li.active');
-				current.removeClass('active').next().addClass('active');
-				let id = parseInt(current.data('slide-to'));
-				if (count == id) {
-					$('.nav li').first().addClass('active');
-				}
-			}
-			clickEvent = false;
-		});
-}); */
+//Changes Tabs to Active with Active Slide
+
+const carousel = document.querySelector('#headerCarousel');
+carousel.addEventListener('slide.bs.carousel', (event) => {
+	let nextSlide = event.to;
+	let customIndicators = document.querySelectorAll('.custom-indicators li');
+	for (let i = 0; i < customIndicators.length; i++) {
+		customIndicators[i].classList.remove('active');
+	}
+	document
+		.querySelector(
+			'.custom-indicators li[data-bs-slide-to="' + nextSlide + '"]'
+		)
+		.classList.add('active');
+});
+
+// Testimonial Slide
 
 const swiperEl = document.querySelector('swiper-container');
 
@@ -66,7 +59,6 @@ const params = {
 		init() {},
 	},
 };
-
 
 Object.assign(swiperEl, params);
 
