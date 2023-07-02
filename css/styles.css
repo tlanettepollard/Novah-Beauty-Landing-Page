@@ -28,7 +28,7 @@ Colors:
 * {
 	margin: 0;
 	padding: 0;
-	//outline: 1px solid white;
+	outline: 1px solid white;
 }
 
 *,
@@ -56,7 +56,6 @@ p {
 	width: 90%;
 	height: 0.1rem;
 	background-color: gray;
-
 }
 
 /**************************/
@@ -172,8 +171,6 @@ p {
 /**************************/
 /*     About  */
 /**************************/
- 
-
 
 /**************************/
 /*     Image Gallery  */
