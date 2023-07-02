@@ -129,11 +129,11 @@
 			<header class="header position-relative text-center overflow-auto">
 				<div
 					id="headerCarousel"
-					class="carousel carousel slide carousel-fade w-100"
-					data-ride="carousel"
+					class="carousel slide carousel-fade w-100"
+					data-bs-ride="true"
 				>
 					<div class="carousel-inner">
-						<div class="carousel-item bkg-one active">
+						<div class="carousel-item active">
 							<div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
 								<div
 									class="d-flex flex-column justify-content-center align-items-center"
@@ -272,12 +272,12 @@
 
 					<!-- Carousel Controls -->
 					<ol
-						class="nav nav-pills nav-justified d-flex flex-column flex-md-row justify-content-md-between bg-dark"
+						class="nav nav-pills nav-justified custom-indicators d-flex flex-md-row justify-content-md-between bg-dark"
 					>
 						<li
 							data-bs-target="#headerCarousel"
 							data-bs-slide-to="0"
-							class="nav-item"
+							class="nav-item active"
 							aria-current="true"
 							aria-label="Slide 1"
 						>
@@ -319,6 +319,8 @@
 				</div>
 				<!-- Wrapper for carousel items -->
 			</header>
+			<!-- End Header -->
+
 			<main class="main container-fluid">
 				<!-- Section 1 -->
 				<section id="about" class="intro container-fluid my-5">
