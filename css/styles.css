@@ -104,28 +104,28 @@ nav {
 }
 
 .carousel-item:nth-child(1) {
-	background-image: url('../images/jennifer-bedoya-5jySMpqi6xk-unsplash.jpg');
+	background-image: url('../images/HeaderCarousel/jennifer-bedoya-5jySMpqi6xk-unsplash.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
 
 .carousel-item:nth-child(2) {
-	background-image: url('../images/jessica-felicio-F16KPYxfm6s-unsplash.jpg');
+	background-image: url('../images/HeaderCarousel/jessica-felicio-F16KPYxfm6s-unsplash.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
 
 .carousel-item:nth-child(3) {
-	background-image: url('../images/eye-for-ebony-QhoDs-dFIdE-unsplash.jpg');
+	background-image: url('../images/HeaderCarousel/eye-for-ebony-QhoDs-dFIdE-unsplash.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
 
 .carousel-item:nth-child(4) {
-	background-image: url('../images/leighann-blackwood-hx87JWG4yCI-unsplash.jpg');
+	background-image: url('../images/HeaderCarousel/leighann-blackwood-hx87JWG4yCI-unsplash.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom center;
