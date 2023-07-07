@@ -61,6 +61,13 @@ p {
 /**************************/
 /*    Navigation  */
 /**************************/
+nav {
+	height: 5.5rem;
+}
+
+.bg-dark {
+	background-color: #27130f !important;
+}
 
 .navbar-toggler-icon {
 	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -70,8 +77,12 @@ p {
 	border-color: white !important;
 }
 
-.bg-dark {
-	background-color: #552418 !important;
+.text-dark {
+	color: #27130f !important;
+}
+
+.btn-dark {
+	background: #27130f !important;
 }
 
 /**************************/
@@ -138,6 +149,10 @@ p {
 .nav-pills > .active {
 	border: 2px solid #811a12 !important;
 	border-radius: 10px !important;
+}
+
+.carousel .bg-dark {
+	background-color: #552418 !important;
 }
 
 @media screen and (min-width: 992px) {
