@@ -51,6 +51,14 @@ p {
 	font: 400 1rem/1.625 'Open Sans', sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font: 400 1rem/1.625 'Satisfy', cursive;
+}
 .hr {
 	margin: auto;
 	width: 90%;
