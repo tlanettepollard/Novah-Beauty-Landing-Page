@@ -28,7 +28,7 @@ Colors:
 * {
 	margin: 0;
 	padding: 0;
-	outline: 1px solid white;
+	//outline: 1px solid white;
 }
 
 *,
@@ -234,7 +234,38 @@ nav {
 		max-width: 33%;
 	}
 }
+
 */
+.gallery-content swiper-container {
+	width: 100%;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+
+	
+    --swiper-navigation-color: #CA9269;
+
+    
+   
+}
+}
+
+.gallery-content swiper-container .swiper-slide {
+	background-position: center;
+	background-size: cover;
+	width: 30rem;
+	height: 30rem;
+}
+
+.gallery-content .swiper-slide img {
+	width: ;
+}
+
+.gallery-content .gallery-slider [class^='swiper-button-'] {
+	top: initial;
+	bottom: 0;
+	width: 5rem;
+}
+
 /**************************/
 /*     Services */
 /**************************/
@@ -242,11 +273,6 @@ nav {
 /**************************/
 /*     Testimonials */
 /**************************/
-
-swiper-container {
-	width: 100%;
-	height: 100%;
-}
 
 /**************************/
 /*     Call To Action  */
