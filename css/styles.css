@@ -251,6 +251,12 @@ swiper-container {
 /**************************/
 /*     Call To Action  */
 /**************************/
+.cta {
+	background-image: url('/images/Backgrounds/abstract-dark-red-paper-cut-wave-background/paper_cut_wave.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
 
 /**************************/
 /*     Footer */
