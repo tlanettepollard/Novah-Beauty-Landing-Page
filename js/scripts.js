@@ -1,7 +1,7 @@
 //Changes Tabs to Active with Active Slide
 
-const carousel = document.querySelector('#headerCarousel');
-carousel.addEventListener('slide.bs.carousel', (event) => {
+const headerCarousel = document.querySelector('#headerCarousel');
+headerCarousel.addEventListener('slide.bs.carousel', (event) => {
 	let nextSlide = event.to;
 	let customIndicators = document.querySelectorAll('.custom-indicators li');
 	for (let i = 0; i < customIndicators.length; i++) {
@@ -38,3 +38,5 @@ const params = {
 Object.assign(swiperEl, params);
 
 swiperEl.initialize();
+
+// Testimonial Carousel
