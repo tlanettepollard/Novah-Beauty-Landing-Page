@@ -28,7 +28,7 @@ Colors:
 * {
 	margin: 0;
 	padding: 0;
-	outline: 1px solid white;
+	//outline: 1px solid white;
 }
 
 *,
@@ -273,6 +273,13 @@ nav {
 /**************************/
 /*     Testimonials */
 /**************************/
+.testimonials-content .bg-light {
+	background-color: #efddd1 !important;
+}
+
+.testimonials-content .btn-light {
+	background-color: #CA9269 !important;
+}
 
 /**************************/
 /*     Call To Action  */
