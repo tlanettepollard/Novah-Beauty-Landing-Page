@@ -611,16 +611,6 @@
 					id="testimonials"
 					class="testimonials container-fluid my-5 py-5"
 				>
-					<!--<div class="testimonials-header text-center my-5">
-						<div class="container">
-							<h2 class="testimonials-title display-6 fw-bold mb-3 py-3">
-								Our Awesome Customers
-							</h2>
-							<p class="testimonials-text">
-								Lorem ipsum dolor sit amet consectetur.
-							</p>
-						</div>
-					</div>-->
 					<div class="testimonials-content mb-5">
 						<div class="container py-2">
 							<div class="row align-items-center g-xxl-6">
@@ -868,7 +858,10 @@
 								</p>
 							</div>
 							<div class="cta-button-container">
-								<a href="#" class="btn btn-primary btn-lg" role="button"
+								<a
+									href="#bookingFormModal"
+									class="btn btn-primary btn-lg"
+									role="button"
 									>Book Now!</a
 								>
 							</div>
@@ -876,6 +869,32 @@
 					</div>
 				</section>
 				<!-- End CTA -->
+				<!-- Begin Modal Form -->
+				<section
+					id="bookingFormModal"
+					class="modal fade"
+					tabindex="-1"
+					aria-labelledby="bookingFormModalLabel"
+					aria-hidden="true"
+				>
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h4 class="modal-title" Make Your Appointment Today!></h4>
+								<p>For your requests, please fill ou the Booking Form.</p>
+								<button
+									class="btn-close"
+									type="button"
+									data-bs-dismiss="modal"
+									aria-label="close"
+								></button>
+							</div>
+							<div class="modal-body">
+								<form action="#" class="booking-form"></form>
+							</div>
+						</div>
+					</div>
+				</section>
 
 				<!-- Begin Contact -->
 				<section id="contact" class="contact container-fluid my-5 py-5">
