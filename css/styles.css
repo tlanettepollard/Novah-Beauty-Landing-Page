@@ -28,7 +28,7 @@ Colors:
 * {
 	margin: 0;
 	padding: 0;
-	outline: 1px solid white;
+	//outline: 1px solid white;
 }
 
 *,
@@ -125,7 +125,7 @@ nav {
 }
 
 .carousel-item:nth-child(4) {
-	background-image: url('../images/HeaderCarousel/leighann-blackwood-hx87JWG4yCI-unsplash.jpg');
+	background-image: url('../images/HeaderCarousel/pexels-godisable-jacob-897314.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom center;
