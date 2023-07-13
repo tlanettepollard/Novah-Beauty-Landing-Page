@@ -128,7 +128,7 @@ nav {
 	background-image: url('../images/HeaderCarousel/pexels-godisable-jacob-897314.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: bottom center;
+	background-position: 50% center;
 }
 
 .custom-indicators li {
@@ -212,37 +212,6 @@ nav {
 	background-position: center;
 }
 
-/*.gallery .row {
-	padding: 0 0.4rem;
-}
-
-.column {
-	flex-basis: 100%;
-	max-width: 100%;
-	padding: 0 0.4rem;
-}
-
-.column img {
-	margin-top: 0.8rem;
-	vertical-align: middle;
-	width: 100%;
-}
-
-@media screen and (min-width: 768px) {
-	.gallery .column {
-		flex-basis: 50%;
-		max-width: 50%;
-	}
-}
-
-@media screen and (min-width: 1200px) {
-	.gallery .column {
-		flex-basis: 33%;
-		max-width: 33%;
-	}
-}
-
-*/
 .gallery-content swiper-container {
 	width: 100%;
 	padding-top: 5rem;
@@ -276,11 +245,12 @@ nav {
 /*     Testimonials */
 /**************************/
 .testimonials-content .bg-light {
-	background-color: #efddd1 !important;
+	background-color: #552418 !important;
 }
 
 .testimonials-content .btn-light {
-	background-color: #ca9269 !important;
+	background-color: #73939e !important;
+	color: white !important;
 }
 
 /**************************/
@@ -291,6 +261,10 @@ nav {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+}
+
+.cta .btn-primary {
+	background-color: #73939E !important;
 }
 
 /**************************/
