@@ -878,6 +878,8 @@
 					tabindex="-1"
 					aria-labelledby="bookingModalLabel"
 					aria-hidden="true"
+					data-bs-backdrop="static"
+					data-bs-keyboard="false"
 				>
 					<div class="modal-dialog">
 						<div class="modal-content">
@@ -893,7 +895,30 @@
 							<div class="modal-body">
 								<div class="booking-form">
 									<form action="#">
-										<div class="form-floating mb-3 mt-4"></div>
+										<div class="form-floating mb-3 mt-4">
+											<input
+												type="text"
+												class="form-control"
+												id="fullNameInput"
+												placeholder="First and Last Name"
+												required
+											/>
+											<label for="fullNameInput" class="form-label text-dark"
+												>First & Last Name</label
+											>
+										</div>
+										<div class="form-floating mb-3 mt-4">
+											<input
+												type="text"
+												class="form-control"
+												id="phoneNumberInput"
+												placeholder="Phone Number"
+												required
+											/>
+											<label for="phoneNumberInput" class="form-label text-dark"
+												>Phone Number</label
+											>
+										</div>
 									</form>
 								</div>
 							</div>
