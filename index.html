@@ -859,9 +859,11 @@
 							</div>
 							<div class="cta-button-container">
 								<a
-									href="#bookingFormModal"
+									href="#"
 									class="btn btn-primary btn-lg"
 									role="button"
+									data-bs-toggle="modal"
+									data-bs-target="#bookingModal"
 									>Book Now!</a
 								>
 							</div>
@@ -871,26 +873,39 @@
 				<!-- End CTA -->
 				<!-- Begin Modal Form -->
 				<section
-					id="bookingFormModal"
+					id="bookingModal"
 					class="modal fade"
 					tabindex="-1"
-					aria-labelledby="bookingFormModalLabel"
+					aria-labelledby="bookingModalLabel"
 					aria-hidden="true"
 				>
 					<div class="modal-dialog">
 						<div class="modal-content">
-							<div class="modal-header">
-								<h4 class="modal-title" Make Your Appointment Today!></h4>
-								<p>For your requests, please fill ou the Booking Form.</p>
+							<div class="modal-header d-flex flex-column">
+								<h4 class="modal-title display-6 text-black-50">
+									Make Your Appointment Today!
+								</h4>
+
+								<p class="text-black-50">
+									For your requests, please fill ou the Booking Form.
+								</p>
+							</div>
+							<div class="modal-body">
+								<div class="booking-form">
+									<form action="#">
+										<div class="form-floating mb-3 mt-4"></div>
+									</form>
+								</div>
+							</div>
+							<div class="modal-footer">
 								<button
-									class="btn-close"
+									class="btn btn-secondary"
 									type="button"
 									data-bs-dismiss="modal"
 									aria-label="close"
-								></button>
-							</div>
-							<div class="modal-body">
-								<form action="#" class="booking-form"></form>
+								>
+									Save
+								</button>
 							</div>
 						</div>
 					</div>
