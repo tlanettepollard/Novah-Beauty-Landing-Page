@@ -611,16 +611,6 @@
 					id="testimonials"
 					class="testimonials container-fluid my-5 py-5"
 				>
-					<!--<div class="testimonials-header text-center my-5">
-						<div class="container">
-							<h2 class="testimonials-title display-6 fw-bold mb-3 py-3">
-								Our Awesome Customers
-							</h2>
-							<p class="testimonials-text">
-								Lorem ipsum dolor sit amet consectetur.
-							</p>
-						</div>
-					</div>-->
 					<div class="testimonials-content mb-5">
 						<div class="container py-2">
 							<div class="row align-items-center g-xxl-6">
@@ -868,7 +858,12 @@
 								</p>
 							</div>
 							<div class="cta-button-container">
-								<a href="#" class="btn btn-primary btn-lg" role="button"
+								<a
+									href="#"
+									class="btn btn-primary btn-lg"
+									role="button"
+									data-bs-toggle="modal"
+									data-bs-target="#bookingModal"
 									>Book Now!</a
 								>
 							</div>
@@ -876,6 +871,45 @@
 					</div>
 				</section>
 				<!-- End CTA -->
+				<!-- Begin Modal Form -->
+				<section
+					id="bookingModal"
+					class="modal fade"
+					tabindex="-1"
+					aria-labelledby="bookingModalLabel"
+					aria-hidden="true"
+				>
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header d-flex flex-column">
+								<h4 class="modal-title display-6 text-black-50">
+									Make Your Appointment Today!
+								</h4>
+
+								<p class="text-black-50">
+									For your requests, please fill ou the Booking Form.
+								</p>
+							</div>
+							<div class="modal-body">
+								<div class="booking-form">
+									<form action="#">
+										<div class="form-floating mb-3 mt-4"></div>
+									</form>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button
+									class="btn btn-secondary"
+									type="button"
+									data-bs-dismiss="modal"
+									aria-label="close"
+								>
+									Save
+								</button>
+							</div>
+						</div>
+					</div>
+				</section>
 
 				<!-- Begin Contact -->
 				<section id="contact" class="contact container-fluid my-5 py-5">
