@@ -872,106 +872,118 @@
 				</section>
 				<!-- End CTA -->
 				<!-- Begin Modal Form -->
-				<section
-					id="bookingModal"
-					class="modal fade"
-					tabindex="-1"
-					aria-labelledby="bookingModalLabel"
-					aria-hidden="true"
-					data-bs-backdrop="static"
-					data-bs-keyboard="false"
-				>
-					<div class="modal-dialog">
-						<div class="modal-content bg-dark">
-							<div class="modal-header d-flex flex-column">
-								<h4 class="modal-title display-6 text-light text-center pt-2">
-									Make Your Appointment Today!
-								</h4>
+				<section>
+					<div
+						id="bookingModal"
+						class="modal fade"
+						tabindex="-1"
+						aria-labelledby="bookingModalLabel"
+						aria-hidden="true"
+						data-bs-backdrop="static"
+						data-bs-keyboard="false"
+					>
+						<div class="modal-dialog">
+							<div class="modal-content bg-dark">
+								<div class="modal-header d-flex flex-column">
+									<button
+										class="btn-close btn-light"
+										data-bs-dismiss="modal"
+										aria-label="Close"
+									></button>
+									<h4 class="modal-title display-6 text-light text-center mt-3">
+										Make Your Appointment Today!
+									</h4>
+									
 
-								<p class="text-light text-start p-2">
-									For your requests, please fill our the Booking Form. Our
-									receptionist will contact you to confirm a date and service.
-								</p>
-							</div>
-							<div class="modal-body">
-								<div class="booking-form">
-									<form action="#" class="p-2">
-										<div class="form-floating mb-3 mt-4">
-											<input
-												type="text"
-												class="form-control"
-												id="fullNameInput"
-												placeholder="First and Last Name"
-												required
-											/>
-											<label for="fullNameInput" class="form-label text-dark"
-												>First and Last Name</label
-											>
-										</div>
-										<div class="form-floating mb-3 mt-4">
-											<input
-												type="text"
-												class="form-control"
-												id="phoneNumberInput"
-												placeholder="Phone Number"
-												required
-											/>
-											<label for="phoneNumberInput" class="form-label text-dark"
-												>Phone Number</label
-											>
-										</div>
-										<div class="mb-3">
-											<select
-												id="dayPreferred"
-												class="form-select"
-												aria-label="Select Day"
-											>
-												<option selected>Which day do you prefer?</option>
-												<option value="Monday">Monday</option>
-												<option value="Tuesday">Tuesday</option>
-												<option value="Wednesday">Wednesday</option>
-												<option value="Thursday">Thursday</option>
-												<option value="Friday">Friday</option>
-												<option value="Saturday">Saturday</option></select
-											><!-- Day Select -->
-										</div>
-										<div class="mb-3">
-											<select
-												id="timePreferred"
-												class="form-select"
-												aria-label="Preferred Time"
-											>
-												<option selected>Which time do you prefer?</option>
-												<option value="Morning">Morning</option>
-												<option value="Afternoon">Afternoon</option>
-												<option value="Evening">Evening</option></select
-											><!-- Time Preferred -->
-										</div>
-										<div class="form-floating mb-3">
-											<label for="messageArea" class="form-label text-black-50"
-												>Leave a Message</label
-											>
-											<textarea
-												name=""
-												id="messageArea"
-												cols="30"
-												rows="3"
-												placeholder="Services you would prefer"
-												class="form-control"
-											></textarea>
-										</div>
-									</form>
+									<p class="text-light text-start p-2">
+										For your requests, please fill our the Booking Form. Our
+										receptionist will contact you to confirm a date and service.
+									</p>
 								</div>
-							</div>
-							<div class="modal-footer">
-								<button
-									class="btn btn-secondary"
-									type="button"
-									data-bs-dismiss="modal"
-									aria-label="close"
-								>
-									Submit
-								</button>
+								<div class="modal-body">
+									<div class="booking-form">
+										<form action="#" class="p-2">
+											<div class="form-floating mb-3 mt-4">
+												<input
+													type="text"
+													class="form-control"
+													id="fullNameInput"
+													placeholder="First and Last Name"
+													required
+												/>
+												<label for="fullNameInput" class="form-label text-dark"
+													>First and Last Name</label
+												>
+											</div>
+											<div class="form-floating mb-3 mt-4">
+												<input
+													type="text"
+													class="form-control"
+													id="phoneNumberInput"
+													placeholder="Phone Number"
+													required
+												/>
+												<label
+													for="phoneNumberInput"
+													class="form-label text-dark"
+													>Phone Number</label
+												>
+											</div>
+											<div class="mb-3">
+												<select
+													id="dayPreferred"
+													class="form-select"
+													aria-label="Select Day"
+												>
+													<option selected>Which day do you prefer?</option>
+													<option value="Monday">Monday</option>
+													<option value="Tuesday">Tuesday</option>
+													<option value="Wednesday">Wednesday</option>
+													<option value="Thursday">Thursday</option>
+													<option value="Friday">Friday</option>
+													<option value="Saturday">Saturday</option></select
+												><!-- Day Select -->
+											</div>
+											<div class="mb-3">
+												<select
+													id="timePreferred"
+													class="form-select"
+													aria-label="Preferred Time"
+												>
+													<option selected>Which time do you prefer?</option>
+													<option value="Morning">Morning</option>
+													<option value="Afternoon">Afternoon</option>
+													<option value="Evening">Evening</option></select
+												><!-- Time Preferred -->
+											</div>
+											<div class="form-floating mb-3">
+												<label
+													for="messageArea"
+													class="form-label text-black-50"
+													>Leave a Message</label
+												>
+												<textarea
+													name=""
+													id="messageArea"
+													cols="30"
+													rows="3"
+													placeholder="Services you would prefer"
+													class="form-control"
+												></textarea>
+											</div>
+										</form>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button
+										class="btn btn-secondary"
+										type="button"
+										data-bs-dismiss="modal"
+										aria-label="close"
+									>
+										Submit
+									</button>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -1008,7 +1020,7 @@
 							</div>
 							<!-- /col -->
 
-							<div class="col-md-4 mb-4 mb-md-0 h-100">
+							<div class="col-md-4 mb-4 mb-md-0">
 								<div class="card bg-dark border border-dark shadow-lg h-100">
 									<div class="card-header">
 										<p class="contact-title fw-bolder fs-4 m-auto p-auto">
@@ -1033,7 +1045,7 @@
 							</div>
 							<!-- /col -->
 
-							<div class="col-md-4 mb-4 mb-md-0 h-100">
+							<div class="col-md-4 mb-4 mb-md-0">
 								<div class="card bg-dark border border-dark shadow-lg h-100">
 									<div class="card-header">
 										<p class="contact-title fw-bolder fs-4 m-auto p-auto">
@@ -1041,16 +1053,18 @@
 										</p>
 									</div>
 									<div class="card-body">
-										<div class="contact-icon p-2">
-											<i class="bi bi-geo-alt-fill fs-3 p-2"></i>
+										<div class="contact-icon">
+											<i class="bi bi-geo-alt-fill fs-3 py-2"></i>
 										</div>
 										<div class="contact-content pe-2">
-											<p class="p-2">
+											<p class="pt-2">
 												Lorem ipsum dolor sit amet consectetur. Suspendisse urna
 												amet et nunc vestibulum
 											</p>
-											<p class="p-auto">123 Sample Street, Anytown, State</p>
 										</div>
+									</div>
+									<div class="card-footer">
+										<p class="p-auto">123 Sample Street, Anytown, State</p>
 									</div>
 								</div>
 							</div>
