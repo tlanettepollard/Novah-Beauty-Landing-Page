@@ -280,6 +280,10 @@ nav {
 	color: gray !important;
 }
 
+.form-select {
+	background-color: inherit;
+	color: gray !important;
+}
 
 /**************************/
 /*     Contact */
