@@ -273,7 +273,7 @@ nav {
 /**************************/
 .form-control {
 	background-color: inherit;
-	color: white !important;
+	color: #585b5f !important;
 }
 
 ::placeholder {
