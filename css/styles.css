@@ -10,6 +10,7 @@ Table Of Contents:
 - Services
 - Testimonials
 - Call To Action
+- Modal
 - Contact
 - Footer
 - Copyright
@@ -266,6 +267,19 @@ nav {
 .cta .btn-primary {
 	background-color: #73939e !important;
 }
+
+/**************************/
+/*     Modal */
+/**************************/
+.form-control {
+	background-color: inherit;
+	color: white !important;
+}
+
+::placeholder {
+	color: gray !important;
+}
+
 
 /**************************/
 /*     Contact */
