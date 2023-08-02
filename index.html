@@ -1,1040 +1,742 @@
 <!DOCTYPE html>
 <html lang="zxx">
-	<head>
-		<meta charset="utf-8">
-		<meta
-			name="viewport"
-			content="width=device-width, intial-scale=1, shrink-to-fit=no">
-		<!-- SEO Meta Tags -->
-		<meta name="description" content="Your description">
-		<meta name="author" content="Your name">
 
-		<!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn-->
-		<meta property="og:site_name" content="">
-		<!-- website name -->
-		<meta property="og:site" content="">
-		<!-- website link -->
-		<meta property="og:title" content="">
-		<!-- title shown in the actual shared post -->
-		<meta property="og:description" content="">
-		<!-- description shown in the actual shared post -->
-		<meta property="og:image" content="">
-		<!-- image link, make sure it's jpg -->
-		<meta property="og:url" content="">
-		<!-- where do you want your post to link to -->
-		<meta name="twitter:card" content="summary_large_image">
-		<!-- to have large image post format in Twitter -->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1, shrink-to-fit=no">
+	<!-- SEO Meta Tags -->
+	<meta name="description" content="Your description">
+	<meta name="author" content="Your name">
 
-		<!-- Webpage Title -->
-		<title>Novah Webpage Title</title>
+	<!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn-->
+	<meta property="og:site_name" content="">
+	<!-- website name -->
+	<meta property="og:site" content="">
+	<!-- website link -->
+	<meta property="og:title" content="">
+	<!-- title shown in the actual shared post -->
+	<meta property="og:description" content="">
+	<!-- description shown in the actual shared post -->
+	<meta property="og:image" content="">
+	<!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="">
+	<!-- where do you want your post to link to -->
+	<meta name="twitter:card" content="summary_large_image">
+	<!-- to have large image post format in Twitter -->
 
-		<!-- Styles -->
-		<!-- Google Fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Satisfy&display=swap"
-			rel="stylesheet">
-		<!-- Bootstrap Framework -->
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-			crossorigin="anonymous">
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+	<!-- Webpage Title -->
+	<title>Novah Webpage Title</title>
 
-		<!-- Swiper CSS -->
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+	<!-- Styles -->
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Satisfy&display=swap"
+		rel="stylesheet">
+	<!-- Bootstrap Framework -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
-		<!-- Vendor CSS -->
-		<link rel="stylesheet" href="./css/normalize.css">
+	<!-- Swiper CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
 
-		<!-- Developer CSS -->
-		<link rel="stylesheet" href="./css/styles.css">
+	<!-- Vendor CSS -->
+	<link rel="stylesheet" href="./css/normalize.css">
 
-		<!-- Favicons -->
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="32x32"
-			href="/web/images/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="manifest" href="/site.webmanifest">
-	</head>
-	<body id="top" data-bs-spy="scroll" data-bs-target="#mainNavbar">
-		<div class="container-fluid">
-			<!-- Navigation -->
-			<nav
-				id="mainNavbar"
-				class="navbar navbar-expand-md bg-dark navbar-light fixed-top"
-			>
-				<div class="container nav-container">
-					<h3><a href="#" class="navbar-brand text-light fs-1"> Novah</a></h3>
+	<!-- Developer CSS -->
+	<link rel="stylesheet" href="./css/styles.css">
 
-					<!-- Image Logo - Use this if you are not using a text logo -->
-					<!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative" /></a> -->
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/web/images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+</head>
 
-					<button
-						class="navbar-toggler"
-						type="button"
-						data-bs-toggle="collapse"
-						data-bs-target="#navMenu"
-					>
-						<span class="navbar-toggler-icon"></span>
-					</button>
+<body id="top" data-bs-spy="scroll" data-bs-target="#mainNavbar">
+	<div class="container-fluid">
+		<!-- Navigation -->
+		<nav id="mainNavbar" class="navbar navbar-expand-md bg-dark navbar-light fixed-top">
+			<div class="container nav-container">
+				<h3><a href="#" class="navbar-brand text-light fs-1"> Novah</a></h3>
 
-					<div
-						class="collapse navbar-collapse text-center bg-dark"
-						id="navMenu"
-					>
-						<ul
-							class="navbar-nav text-center ms-auto px-lg-4 navbar-nav-scroll"
-						>
-							<li class="nav-item">
-								<a href="#" class="nav-link active text-light">Home</a>
-							</li>
-							<li class="nav-item">
-								<a href="#about" class="nav-link text-light">About</a>
-							</li>
-							<li class="nav-item">
-								<a href="#gallery" class="nav-link text-light">Gallery</a>
-							</li>
-							<li class="nav-item">
-								<a href="#services" class="nav-link text-light">Services</a>
-							</li>
-							<li class="nav-item">
-								<a href="#testimonials" class="nav-link text-light"
-									>Testimonials</a
-								>
-							</li>
-							<li class="nav-item">
-								<a href="#contact" class="nav-link active text-light"
-									>Contact</a
-								>
-							</li>
-						</ul>
-						<button class="btn btn-md btn-light my-4 ms-md-3">
-							<a href="#cta-book" class="text-decoration-none link-dark fw-bold"
-								>Book Now</a
-							>
-						</button>
-					</div>
+				<!-- Image Logo - Use this if you are not using a text logo -->
+				<!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative" /></a> -->
+
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse text-center bg-dark" id="navMenu">
+					<ul class="navbar-nav text-center ms-auto px-lg-4 navbar-nav-scroll">
+						<li class="nav-item">
+							<a href="#" class="nav-link active text-light">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="#about" class="nav-link text-light">About</a>
+						</li>
+						<li class="nav-item">
+							<a href="#gallery" class="nav-link text-light">Gallery</a>
+						</li>
+						<li class="nav-item">
+							<a href="#services" class="nav-link text-light">Services</a>
+						</li>
+						<li class="nav-item">
+							<a href="#testimonials" class="nav-link text-light">Testimonials</a>
+						</li>
+						<li class="nav-item">
+							<a href="#contact" class="nav-link active text-light">Contact</a>
+						</li>
+					</ul>
+
+					<a role="button" href="#cta-book"
+						class="btn btn-md btn-light my-4 ms-md-3 text-decoration-none link-dark fw-bold">Book Now</a>
+
 				</div>
-			</nav>
+			</div>
+		</nav>
 
-			<!-- End Navbar -->
+		<!-- End Navbar -->
 
-			<!-- Header -->
-			<header class="header position-relative text-center overflow-auto">
-				<div
-					id="headerCarousel"
-					class="carousel slide carousel-fade w-100"
-					data-bs-ride="carousel"
-				>
-					<div class="carousel-inner">
-						<div class="carousel-item active" data-bs-interval="8000">
-							<div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
-								<div
-									class="d-flex flex-column justify-content-center align-items-center"
-								>
-									<div class="carousel-caption bg-body-tertiary opacity-75">
-										<h1 class="text-dark display-5 fw-bold">
-											Natural Hair Care
-										</h1>
-										<p class="text-dark fw-bold d-none d-md-block p-4">
-											Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-											sed diam nonumy eirmod tempor invidunt ut labore et dolore
-											magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor
-											sit amet, consetetur sadipscing elitr
-										</p>
-										<a
-											href="#naturalHair"
-											class="btn btn-lg m-2 btn-outline-dark fw-bold"
-											role="button"
-											rel="nofollow"
-											target="_blank"
-										>
-											Details
-										</a>
-										<a
-											href="#cta-book"
-											class="btn btn-outline-dark fw-bold btn-lg m-2"
-											target="_blank"
-											role="button"
-											>Book Now</a
-										>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- End Item -->
-						<div class="carousel-item" data-bs-interval="8000">
-							<div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
-								<div class="d-flex justify-content-center align-items-center">
-									<div class="carousel-caption bg-body-tertiary opacity-75">
-										<h2 class="mb-3 text-dark display-5 fw-bold">
-											Braiding and Locing
-										</h2>
-										<p class="mb-4 text-dark fw-bold d-none d-md-block p-4">
-											Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-											sed diam nonumy eirmod tempor invidunt ut labore et dolore
-											magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor
-											sit amet, consetetur sadipscing elitr
-										</p>
-										<a
-											href="#braidingLocs"
-											class="btn btn-outline-dark fw-bold btn-lg m-2"
-											role="button"
-											rel="nofollow"
-											target="_blank"
-										>
-											Details
-										</a>
-										<a
-											href="#"
-											class="btn btn-outline-dark fw-bold btn-lg m-2"
-											target="_blank"
-											role="button"
-											>Book Now</a
-										>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- End Item -->
-
-						<div class="carousel-item" data-bs-interval="8000">
-							<div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
-								<div class="d-flex justify-content-center align-items-center">
-									<div class="carousel-caption bg-body-tertiary opacity-75">
-										<h2 class="mb-3 text-dark display-5 fw-bold">
-											Colors and Cuts
-										</h2>
-										<p class="mb-4 text-dark fw-bold d-none d-md-block p-4">
-											Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-											sed diam nonumy eirmod tempor invidunt ut labore et dolore
-											magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor
-											sit amet, consetetur sadipscing elitr
-										</p>
-										<a
-											href="#colorCuts"
-											class="btn btn-outline-dark fw-bold btn-lg m-2"
-											role="button"
-											rel="nofollow"
-											target="_blank"
-										>
-											Details
-										</a>
-										<a
-											href="#"
-											class="btn btn-outline-dark fw-bold btn-lg m-2"
-											target="_blank"
-											role="button"
-											>Book Now</a
-										>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- End Item -->
-
-						<div class="carousel-item" data-bs-interval="8000">
-							<div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
-								<div
-									class="d-flex flex-column justify-content-center align-items-center"
-								>
-									<div class="carousel-caption bg-body-tertiary opacity-75">
-										<h1 class="mb-3 text-dark display-5 fw-bold">
-											Straight Hairstyles
-										</h1>
-										<p class="mb-4 text-dark fw-bold d-none d-md-block p-4">
-											Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-											sed diam nonumy eirmod tempor invidunt ut labore et dolore
-											magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor
-											sit amet, consetetur sadipscing elitr
-										</p>
-										<a
-											href="#straightHair"
-											class="btn btn-outline-dark fw-bold btn-lg m-2"
-											role="button"
-											rel="nofollow"
-											target="_blank"
-										>
-											Details
-										</a>
-										<a
-											href="#"
-											class="btn btn-outline-dark fw-bold btn-lg m-2"
-											target="_blank"
-											role="button"
-											>Book Now</a
-										>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- End Item -->
-					</div>
-					<!-- Carousel Inner -->
-
-					<!-- Carousel Controls -->
-					<ol
-						class="nav nav-pills nav-justified custom-indicators d-flex flex-md-row justify-content-md-between bg-dark py-2"
-					>
-						<li
-							data-bs-target="#headerCarousel"
-							data-bs-slide-to="0"
-							class="nav-item active"
-							aria-current="true"
-							aria-label="Slide 1"
-						>
-							<a href="#" class="nav-link text-white"
-								><small>Features 1</small></a
-							>
-						</li>
-						<li
-							data-bs-target="#headerCarousel"
-							data-bs-slide-to="1"
-							class="nav-item"
-							aria-label="Slide 2"
-						>
-							<a href="#" class="nav-link text-white"
-								><small>Features 2</small></a
-							>
-						</li>
-						<li
-							data-bs-target="#headerCarousel"
-							data-bs-slide-to="2"
-							class="nav-item"
-							aria-label="Slide 3"
-						>
-							<a href="#" class="nav-link text-white"
-								><small>Features 3</small></a
-							>
-						</li>
-						<li
-							data-bs-target="#headerCarousel"
-							data-bs-slide-to="3"
-							class="nav-item"
-							aria-label="Slide 4"
-						>
-							<a href="#" class="nav-link text-white"
-								><small>Features 4</small></a
-							>
-						</li>
-					</ol>
-				</div>
-				<!-- Wrapper for carousel items -->
-			</header>
-			<!-- End Header -->
-
-			<main class="main">
-				<!-- Section 1 -->
-				<section id="about" class="intro container-fluid my-5">
-					<div
-						class="container d-flex flex-column-reverse flex-lg-row justify-content-evenly align-items-center mx-auto p-2"
-					>
-						<div
-							class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center"
-						>
-							<div class="text-center text-md-start w-75">
-								<h1 class="gallery-title display-6 fw-bold p-4">
-									Welcome Novah Salon
-								</h1>
-								<p class="p-4">
-									Lorem ipsum dolor sit amet consectetur. Cras nulla congue elit
-									risus diam convallis sodales aenean. Faucibus dignissim nibh
-									lobortis neque massa tempus tellus. Nascetur ridiculus mus
-									mauris vitae ultricies leo integer. Tristique senectus et
-									netus et malesuada fames ac turpis egestas. Ac placerat
-									vestibulum lectus mauris. Volutpat blandit aliquam etiam erat.
-								</p>
-							</div>
-							<div
-								class="hours d-flex flex-column justify-content-evenly w-75 mt-5"
-							>
-								<div class="card bg-light rounded-4 shadow-lg my-4">
-									<h3 class="display-6 text-center text-light p-4">
-										Our Hours
-									</h3>
-									<div
-										class="d-flex flex-column justify-content-evenly text-center p-3"
-									>
-										<p class="lead text-light text-uppercase">
-											Tuesday - Sunday
-										</p>
-										<p class="lead hours text-light text-uppercase">
-											10:00 am to 6:00 pm
-										</p>
-										<p class="lead text-light text-uppercase">Mondays Closed</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-md-6 text-center my-5 pt-3">
-							<img
-								src="/images/painting-woman-with-red-dress-ribbon-around-her-neck.jpg"
-								class="img-fluid w-75 shadow-lg"
-								alt=""
-							/>
-						</div>
-					</div>
-				</section>
-				<!-- End About -->
-
-				<!-- Section 2 -->
-				<section id="gallery" class="gallery container-fluid h-auto">
-					<div class="gallery-header text-center mb-5">
-						<div class="container">
-							<h1 class="gallery-title display-5 fw-bold py-3">
-								Our Image Gallery
-							</h1>
-							<p class="gallery-text mb-3 lead">
-								Lorem ipsum dolor sit amet consectetur.
-							</p>
-						</div>
-					</div>
-
-					<div class="gallery-content">
-						<div class="container">
-							<swiper-container
-								class="swiper mySwiper gallery-slider"
-								pagination="true"
-								pagination-type="fraction"
-								navigation="true"
-								effect="coverflow"
-								grab-cursor="true"
-								center-slides="true"
-								slides-per-view="auto"
-								coverflow-effect-rotate="50"
-								coverflow-effect-stretch="0"
-								coverflow-effect-depth="100"
-								coverflow-effect-modifier="1"
-								coverflow-effect-slide-shadows="true"
-							>
-								<swiper-slide>
-									<img
-										src="/images/Gallery/clarke-sanders-JpCOGj0uIlI-unsplash.jpg"
-										class="img-fluid d-block"
-										alt="image"
-									/>
-								</swiper-slide>
-								<swiper-slide>
-									<img
-										src="/images/Gallery/andra-c-taylor-jr-QJ5BWgOm3Mo-unsplash.jpg"
-										class="img-fluid d-block"
-										alt="image"
-									/>
-								</swiper-slide>
-								<swiper-slide>
-									<img
-										src="/images/Gallery/alex-starnes-tbYPDBChsZU-unsplash.jpg"
-										class="img-fluid d-block"
-										alt="image"
-									/>
-								</swiper-slide>
-								<swiper-slide>
-									<img
-										src="/images/Gallery/lashawn-dobbs-wOe_VGJe3TE-unsplash.jpg"
-										class="img-fluid d-block"
-										alt="image"
-									/>
-								</swiper-slide>
-								<swiper-slide>
-									<img
-										src="/images/Gallery/clarke-sanders-HOQpBGL95Z8-unsplash.jpg"
-										class="img-fluid d-block"
-										alt="image"
-									/>
-								</swiper-slide>
-								<swiper-slide>
-									<img
-										src="/images/Gallery/antreina-stone-0rfSUFi_BIY-unsplash.jpg"
-										class="img-fluid d-block"
-										alt="image"
-									/>
-								</swiper-slide>
-								<swiper-slide>
-									<img
-										src="/images/Gallery/getty-images-JFOLYSEdOnM-unsplash.jpg"
-										class="img-fluid d-block"
-										alt="image"
-									/>
-								</swiper-slide>
-								<swiper-slide>
-									<img
-										src="/images/Gallery/gideon-hezekiah-8YkE6veYNUw-unsplash.jpg"
-										class="img-fluid d-block"
-										alt="image"
-									/>
-								</swiper-slide>
-								<swiper-slide>
-									<img
-										src="/images/Gallery/etty-fidele-J1jYLLlRpA4-unsplash.jpg"
-										class="img-fluid d-block"
-										alt="image"
-									/>
-								</swiper-slide>
-							</swiper-container>
-						</div>
-					</div>
-				</section>
-				<!-- End of Gallery -->
-
-				<!-- Begin Services -->
-				<!-- Section 3 -->
-				<section id="services" class="services container-fluid h-auto my-5">
-					<div class="services-header text-center">
-						<div class="container">
-							<h1 class="services-title display-5 fw-bold py-3">
-								Our Services
-							</h1>
-							<p class="services-text">
-								Lorem ipsum dolor sit amet consectetur.
-							</p>
-						</div>
-					</div>
-					<div class="services-content py-5">
-						<div class="container">
-							<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
-								<div class="col py-5">
-									<div
-										id="naturalHair"
-										class="card text-bg-secondary h-100 shadow-lg"
-									>
-										<img
-											src="/images/Service Cards/pexels-cottonbro-studio-3992874.jpg"
-											alt=""
-											class="card-img-top img-fluid"
-										/>
-
-										<div class="card-body">
-											<p class="card-title fs-5 fw-bold">Natural Hair Care</p>
-											<p class="card-text">
-												Lorem ipsum dolor sit amet consectetur risus diam
-												convallis sodales aenean. Faucibus dignissim nibh.
-											</p>
-											<a href="#" class="btn btn-secondary btn-outline-light"
-												>Take a Look</a
-											>
-										</div>
-									</div>
-								</div>
-
-								<div class="col py-5">
-									<div
-										id="braidingLocs"
-										class="card text-bg-secondary h-100 shadow-lg"
-									>
-										<img
-											src="/images/Service Cards/pexels-awajitono-etex-3482712.jpg"
-											alt=""
-											class="card-img-top img-fluid"
-										/>
-										<div class="card-body">
-											<p class="card-title fs-5 fw-bold">Braiding and Locing</p>
-											<p class="card-text">
-												Lorem ipsum dolor sit amet consectetur risus diam
-												convallis sodales aenean. Faucibus dignissim nibh.
-											</p>
-											<a href="#" class="btn btn-secondary btn-outline-light"
-												>Take a Look</a
-											>
-										</div>
-									</div>
-								</div>
-
-								<div class="col py-5">
-									<div
-										id="colorCuts"
-										class="card shadow-lg text-bg-secondary h-100"
-									>
-										<img
-											src="/images/Service Cards/pexels-godisable-jacob-1191520.jpg"
-											alt=""
-											class="card-img-top"
-										/>
-										<div class="card-body">
-											<p class="card-title fs-5 fw-bold">Color and Cuts</p>
-											<p class="card-text">
-												Lorem ipsum dolor sit amet consectetur risus diam
-												convallis sodales aenean. Faucibus dignissim nibh.
-											</p>
-											<a href="#" class="btn btn-secondary btn-outline-light"
-												>Take a Look</a
-											>
-										</div>
-									</div>
-								</div>
-								<div class="col py-5">
-									<div
-										id="straightHair"
-										class="card text-bg-secondary h-100 shadow-lg"
-									>
-										<img
-											src="/images/Service Cards/pexels-nappy-936126.jpg"
-											alt=""
-											class="card-img-top"
-										/>
-										<div class="card-body">
-											<p class="card-title fs-5 fw-bold">Straight Hairstyles</p>
-											<p class="card-text">
-												Lorem ipsum dolor sit amet consectetur risus diam
-												convallis sodales aenean. Faucibus dignissim nibh.
-											</p>
-											<a href="#" class="btn btn-secondary btn-outline-light"
-												>Take a Look</a
-											>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- End Services -->
-
-				<!-- Begin Testimonials -->
-				<!-- Section 4 -->
-				<section
-					id="testimonials"
-					class="testimonials container-fluid my-5 py-5"
-				>
-					<div class="testimonials-content mb-5">
-						<div class="container py-2">
-							<div class="row align-items-center g-xxl-6">
-								<div class="col-lg-7 mb-5 mb-md-0">
-									<div class="row gx-md-5 gy-5">
-										<div class="col-md-6 col-xl-5 align-self-end">
-											<div class="card bg-light border-0 shadow rounded-3">
-												<div class="card-body p-4 p-xxl-5">
-													<div class="d-block position-relative">
-														<figure>
-															<blockquote class="blockquote">
-																<p class="mb-5 text-light">
-																	<i class="">
-																		"Lorem ipsum dolor sit amet consectetur
-																		risus diam convallis sodales aenean.
-																		Faucibus dignissim nibh."
-																	</i>
-																</p>
-															</blockquote>
-															<figcaption class="blockquote-footer">
-																<span class="fw-bold text-light"
-																	>Aleatha Crawford</span
-																>&nbsp;<cite
-																	title="Source Title"
-																	class="text-light"
-																	>Customer, Loctician Services</cite
-																>
-															</figcaption>
-														</figure>
-													</div>
-												</div>
-												<div class="card-footer mt-5">
-													<div
-														class="d-block position-absolute bottom-0 end-0 p-2"
-													>
-														<svg
-															xmlns="http://www.w3.org/2000/svg"
-															width="4.5em"
-															height="4.5em"
-															fill="#27130F"
-															class="bi bi-quote"
-															viewBox="0 0 16 16"
-														>
-															<path
-																d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"
-															/>
-														</svg>
-													</div>
-												</div>
-											</div>
-										</div>
-										<!-- Testimonial 1 -->
-
-										<div class="col-md-6 align-self-end">
-											<div
-												class="d-block card border-0 shadow rounded-3 bg-light"
-											>
-												<div class="card-body p-4 p-xxl-5">
-													<div class="d-block positive-relative">
-														<figure>
-															<blockquote class="blockquote">
-																<p class="mb-5 text-light">
-																	<i class="">
-																		“Vivamus sagittis lacus vel augue laoreet
-																		rutrum faucibus dolor auctor. Vestibulum id
-																		ligula porta felis euismod semper.”
-																	</i>
-																</p>
-															</blockquote>
-															<figcaption class="blockquote-footer">
-																<span class="fw-bold text-light fs-6"
-																	>Tamzin Pernell,</span
-																>&nbsp;<cite
-																	title="Source Title"
-																	class="text-light"
-																	>Barber Services</cite
-																>
-															</figcaption>
-														</figure>
-													</div>
-												</div>
-												<div class="card-footer mt-5">
-													<div
-														class="d-block position-absolute bottom-0 end-0 p-2"
-													>
-														<svg
-															xmlns="http://www.w3.org/2000/svg"
-															width="4.5em"
-															height="4.5em"
-															fill="#27130F"
-															class="bi bi-quote"
-															viewBox="0 0 16 16"
-														>
-															<path
-																d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"
-															/>
-														</svg>
-													</div>
-												</div>
-											</div>
-										</div>
-										<!-- Testimonial 2 -->
-
-										<div class="col-md-6 col-xl-5 offset-xl-1">
-											<div
-												class="d-block card bg-light border-0 shadow rounded-3"
-											>
-												<div class="card-body p-4 p-xxl-5">
-													<div class="position-relative">
-														<figure>
-															<blockquote class="blockquote">
-																<p class="mb-5 text-light">
-																	<i class="">
-																		"Molestie nunc non blandit massa enim nec
-																		dui nunc mattis. Lectus arcu bibendum at
-																		varius. Sit amet porttitor eget dolor morbi
-																		non arcu risus. Mi bibendum neque egestas
-																		congue. Aenean pharetra magna ac placerat
-																		vestibulum lectus mauris."
-																	</i>
-																</p>
-															</blockquote>
-															<figcaption class="blockquote-footer">
-																<span class="fw-bold fs-6 text-light"
-																	>Senalda Brooks,</span
-																>&nbsp;
-																<cite title="Source Title" class="text-light"
-																	>Weave Services</cite
-																>
-															</figcaption>
-														</figure>
-													</div>
-												</div>
-												<div class="card-footer mt-5">
-													<div
-														class="d-block position-absolute bottom-0 end-0 p-2"
-													>
-														<svg
-															xmlns="http://www.w3.org/2000/svg"
-															width="4.5em"
-															height="4.5em"
-															fill="#27130F"
-															class="bi bi-quote"
-															viewBox="0 0 16 16"
-														>
-															<path
-																d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"
-															/>
-														</svg>
-													</div>
-												</div>
-											</div>
-										</div>
-										<!-- Testimonial 3 -->
-
-										<div class="col-md-6 align-self-start">
-											<div
-												class="d-block card bg-light border-0 shadow rounded-3"
-											>
-												<div class="card-body p-4 p-xxl-5">
-													<div class="d-block position-relative">
-														<figure>
-															<blockquote class="blockquote">
-																<p class="mb-5 text-light">
-																	<i>
-																		"Blandit cursus risus at ultrices mi tempus
-																		imperdiet nulla malesuada. Eget felis eget
-																		nunc lobortis mattis aliquam. Lacus sed
-																		viverra tellus in hac. Sed vulputate odio ut
-																		enim blandit volutpat maecenas volutpat
-																		blandit. Luctus accumsan tortor posuere ac
-																		ut consequat semper viverra."
-																	</i>
-																</p>
-															</blockquote>
-															<figcaption class="blockquote-footer">
-																<span class="fw-bold text-light fs-6"
-																	>Keahi Campbell,</span
-																>&nbsp;
-																<cite title="Source Title" class="text-light"
-																	>Coloring Service</cite
-																>
-															</figcaption>
-														</figure>
-													</div>
-												</div>
-												<div class="card-footer mt-5">
-													<div
-														class="d-block position-absolute bottom-0 end-0 p-2"
-													>
-														<svg
-															xmlns="http://www.w3.org/2000/svg"
-															width="4.5em"
-															height="4.5em"
-															fill="#27130F"
-															class="bi bi-quote"
-															viewBox="0 0 16 16"
-														>
-															<path
-																d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"
-															/>
-														</svg>
-													</div>
-												</div>
-											</div>
-										</div>
-										<!-- Testimonial 4-->
-									</div>
-									<!-- Row 1 -->
-								</div>
-								<div class="col-lg-5">
-									<div class="d-block mb-3">
-										<div>
-											<h2 class="fw-bold display-6 mt-3 py-3 ps-lg-4">
-												Our Testimonials
-											</h2>
-										</div>
-									</div>
-									<div class="d-block mb-3 ps-lg-4">
-										<div>
-											<p class="fw-light">
-												Our customers are awesome. Check out what our clients
-												are saying about our salon!
-											</p>
-										</div>
-									</div>
-									<div class="d-block ps-lg-4">
-										<div>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-												Nunc et metus id ligula malesuada placerat sit amet quis
-												enim. Aliquam erat volutpat. In pellentesque scelerisque
-												auctor.
-											</p>
-										</div>
-									</div>
-									<div class="d-block ps-lg-4">
-										<a href="#services" class="btn btn-light" role="button"
-											>Learn More</a
-										>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- End Testimonial Section -->
-
-				<!-- Begin CTA-->
-				<section id="cta-book" class="cta text-center my-5 py-5">
-					<div class="row w-100 py-5">
-						<div class="col-lg-6 col-xl-5 mx-auto">
-							<div class="mb-3">
-								<h1 class="display-4 py-3">Make Your Appointment Today!</h1>
-							</div>
-
-							<div class="mb-5">
-								<p class="lead">
-									Lorem ipsum dolor sit amet consectetur risus diam convallis
-									sodales aenean. Faucibus dignissim nibh.
-								</p>
-							</div>
-							<div class="cta-button-container">
-								<a
-									href="#"
-									class="btn btn-primary btn-lg"
-									role="button"
-									data-bs-toggle="modal"
-									data-bs-target="#bookingModal"
-									>Book Now!</a
-								>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- End CTA -->
-				<!-- Begin Modal Form -->
-				<section>
-					<div
-						id="bookingModal"
-						class="modal fade"
-						tabindex="-1"
-						aria-labelledby="bookingModalLabel"
-						aria-hidden="true"
-						data-bs-backdrop="static"
-						data-bs-keyboard="false"
-					>
-						<div class="modal-dialog">
-							<div class="modal-content bg-dark">
-								<div class="modal-header my-2">
-									<p class="modal-title text-white fs-5">
-										Novah Appointment Booking Form
+		<!-- Header -->
+		<header class="header position-relative text-center overflow-auto">
+			<div id="headerCarousel" class="carousel slide carousel-fade w-100" data-bs-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active" data-bs-interval="8000">
+						<div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+							<div class="d-flex flex-column justify-content-center align-items-center">
+								<div class="carousel-caption bg-body-tertiary opacity-75">
+									<h1 class="text-dark display-5 fw-bold">
+										Natural Hair Care
+									</h1>
+									<p class="text-dark fw-bold d-none d-md-block p-4">
+										Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+										sed diam nonumy eirmod tempor invidunt ut labore et dolore
+										magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor
+										sit amet, consetetur sadipscing elitr
 									</p>
-									<button
-										class="btn-close btn-light bg-light"
-										data-bs-dismiss="modal"
-										aria-label="Close"
-									></button>
+									<a href="#naturalHair" class="btn btn-lg m-2 btn-outline-dark fw-bold" role="button"
+										rel="nofollow" target="_blank">
+										Details
+									</a>
+									<a href="#cta-book" class="btn btn-outline-dark fw-bold btn-lg m-2" target="_blank"
+										role="button">Book Now</a>
 								</div>
-								<div class="modal-body mx-3 bg-dark">
-									<div
-										class="row justify-content-center align-items-center h-100"
-									>
-										<div class="col-12">
-											<div class="card rounded-3 bg-dark">
-												<img
-													class="w-100 mx-auto p-4"
-													src="/images/CTA/pexels-frecelynne-roman-10427813.jpg"
-													alt="Form photo"
-													style="border-radius: 2.5rem"
-												/>
-												<div class="card-body">
-													<form action="#" class="px-md-1 bg-dark">
-														<div class="form-outline mb-4">
-															<label for="fullName" class="visually-hidden">
-																First and Last Name
-															</label>
-															<input
-																type="text"
-																class="form-control text-light"
-																id="fullName"
-																placeholder="First and Last Name"
-																aria-hidden="First and Last Name"
-															/>
-														</div>
-														<div class="form-outline mb-4">
-															<label for="email" class="visually-hidden">
-																Email
-															</label>
-															<input
-																type="text"
-																class="form-control text-light"
-																id="email"
-																placeholder="Email"
-																aria-hidden="Email"
-															/>
-														</div>
-														<div class="form-outline mb-4">
-															<label for="phoneNumber" class="visually-hidden">
-																Phone Number
-															</label>
-															<input
-																type="text"
-																class="form-control text-light"
-																id="phoneNumber"
-																placeholder="Phone Number"
-																aria-hidden="Phone Number"
-															/>
-														</div>
-														<div class="row">
-															<div class="col mb-4">
-																<select
-																	name="#"
-																	id=""
-																	class="form-select"
-																	aria-label="Day selection"
-																>
-																	<option
-																		selected="What day works best for you?"
-																	>
-																		What day works best for you?
-																	</option>
-																	<option value="Monday" class="value">
-																		Monday
-																	</option>
-																	<option value="Tuesday" class="value">
-																		Tuesday
-																	</option>
-																	<option value="Wednesday" class="value">
-																		Wednesday
-																	</option>
-																	<option value="Thursday" class="value">
-																		Thursday
-																	</option>
-																	<option value="Friday" class="value">
-																		Friday
-																	</option>
-																	<option value="Saturday" class="value">
-																		Saturday
-																	</option>
-																</select>
-															</div>
-														</div>
-														<!-- End Row -->
-														<div class="row">
-															<div class="col mb-4">
-																<select
-																	name="#"
-																	class="form-select"
-																	aria-label="Time of day"
-																>
-																	<option
-																		selected="What time works best for you?"
-																	>
-																		What time works best for you?
-																	</option>
-																	<option value="Morning" class="value">
-																		Morning
-																	</option>
-																	<option value="Afternooon" class="value">
-																		Afternoon
-																	</option>
-																	<option value="Evening" class="value">
-																		Evening
-																	</option>
-																</select>
-															</div>
-														</div>
-														<!-- End Row -->
-														<div class="row">
-															<div class="form-outline">
-																<textarea
-																	name=""
-																	id="messageArea"
-																	style="height: 10rem"
-																	class="form-control"
-																	placeholder="Leave us a message."
-																></textarea>
-																<label
-																	for="messageArea"
-																	class="form-label"
-																></label>
-															</div>
-														</div>
-														<!-- End Row -->
-														<button class="btn btn-secondary btn-lg my-3">
-															Submit
-														</button>
-													</form>
+							</div>
+						</div>
+					</div>
+					<!-- End Item -->
+					<div class="carousel-item" data-bs-interval="8000">
+						<div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+							<div class="d-flex justify-content-center align-items-center">
+								<div class="carousel-caption bg-body-tertiary opacity-75">
+									<h2 class="mb-3 text-dark display-5 fw-bold">
+										Braiding and Locing
+									</h2>
+									<p class="mb-4 text-dark fw-bold d-none d-md-block p-4">
+										Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+										sed diam nonumy eirmod tempor invidunt ut labore et dolore
+										magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor
+										sit amet, consetetur sadipscing elitr
+									</p>
+									<a href="#braidingLocs" class="btn btn-outline-dark fw-bold btn-lg m-2"
+										role="button" rel="nofollow" target="_blank">
+										Details
+									</a>
+									<a href="#" class="btn btn-outline-dark fw-bold btn-lg m-2" target="_blank"
+										role="button">Book Now</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Item -->
+
+					<div class="carousel-item" data-bs-interval="8000">
+						<div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+							<div class="d-flex justify-content-center align-items-center">
+								<div class="carousel-caption bg-body-tertiary opacity-75">
+									<h2 class="mb-3 text-dark display-5 fw-bold">
+										Colors and Cuts
+									</h2>
+									<p class="mb-4 text-dark fw-bold d-none d-md-block p-4">
+										Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+										sed diam nonumy eirmod tempor invidunt ut labore et dolore
+										magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor
+										sit amet, consetetur sadipscing elitr
+									</p>
+									<a href="#colorCuts" class="btn btn-outline-dark fw-bold btn-lg m-2" role="button"
+										rel="nofollow" target="_blank">
+										Details
+									</a>
+									<a href="#" class="btn btn-outline-dark fw-bold btn-lg m-2" target="_blank"
+										role="button">Book Now</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Item -->
+
+					<div class="carousel-item" data-bs-interval="8000">
+						<div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+							<div class="d-flex flex-column justify-content-center align-items-center">
+								<div class="carousel-caption bg-body-tertiary opacity-75">
+									<h1 class="mb-3 text-dark display-5 fw-bold">
+										Straight Hairstyles
+									</h1>
+									<p class="mb-4 text-dark fw-bold d-none d-md-block p-4">
+										Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+										sed diam nonumy eirmod tempor invidunt ut labore et dolore
+										magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor
+										sit amet, consetetur sadipscing elitr
+									</p>
+									<a href="#straightHair" class="btn btn-outline-dark fw-bold btn-lg m-2"
+										role="button" rel="nofollow" target="_blank">
+										Details
+									</a>
+									<a href="#" class="btn btn-outline-dark fw-bold btn-lg m-2" target="_blank"
+										role="button">Book Now</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Item -->
+				</div>
+				<!-- Carousel Inner -->
+
+				<!-- Carousel Controls -->
+				<ol
+					class="nav nav-pills nav-justified custom-indicators d-flex flex-md-row justify-content-md-between bg-dark py-2">
+					<li data-bs-target="#headerCarousel" data-bs-slide-to="0" class="nav-item active"
+						aria-current="true" aria-label="Slide 1">
+						<a href="#" class="nav-link text-white"><small>Features 1</small></a>
+					</li>
+					<li data-bs-target="#headerCarousel" data-bs-slide-to="1" class="nav-item" aria-label="Slide 2">
+						<a href="#" class="nav-link text-white"><small>Features 2</small></a>
+					</li>
+					<li data-bs-target="#headerCarousel" data-bs-slide-to="2" class="nav-item" aria-label="Slide 3">
+						<a href="#" class="nav-link text-white"><small>Features 3</small></a>
+					</li>
+					<li data-bs-target="#headerCarousel" data-bs-slide-to="3" class="nav-item" aria-label="Slide 4">
+						<a href="#" class="nav-link text-white"><small>Features 4</small></a>
+					</li>
+				</ol>
+			</div>
+			<!-- Wrapper for carousel items -->
+		</header>
+		<!-- End Header -->
+
+		<main class="main">
+			<!-- Section 1 -->
+			<section id="about" class="intro container-fluid my-5">
+				<div
+					class="container d-flex flex-column-reverse flex-lg-row justify-content-evenly align-items-center mx-auto p-2">
+					<div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
+						<div class="text-center text-md-start w-75">
+							<h1 class="gallery-title display-6 fw-bold p-4">
+								Welcome Novah Salon
+							</h1>
+							<p class="p-4">
+								Lorem ipsum dolor sit amet consectetur. Cras nulla congue elit
+								risus diam convallis sodales aenean. Faucibus dignissim nibh
+								lobortis neque massa tempus tellus. Nascetur ridiculus mus
+								mauris vitae ultricies leo integer. Tristique senectus et
+								netus et malesuada fames ac turpis egestas. Ac placerat
+								vestibulum lectus mauris. Volutpat blandit aliquam etiam erat.
+							</p>
+						</div>
+						<div class="hours d-flex flex-column justify-content-evenly w-75 mt-5">
+							<div class="card bg-light rounded-4 shadow-lg my-4">
+								<h3 class="display-6 text-center text-light p-4">
+									Our Hours
+								</h3>
+								<div class="d-flex flex-column justify-content-evenly text-center p-3">
+									<p class="lead text-light text-uppercase">
+										Tuesday - Sunday
+									</p>
+									<p class="lead hours text-light text-uppercase">
+										10:00 am to 6:00 pm
+									</p>
+									<p class="lead text-light text-uppercase">Mondays Closed</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 text-center my-5 pt-3">
+						<img src="/images/painting-woman-with-red-dress-ribbon-around-her-neck.jpg"
+							class="img-fluid w-75 shadow-lg" alt="">
+					</div>
+				</div>
+			</section>
+			<!-- End About -->
+
+			<!-- Section 2 -->
+			<section id="gallery" class="gallery container-fluid h-auto">
+				<div class="gallery-header text-center mb-5">
+					<div class="container">
+						<h1 class="gallery-title display-5 fw-bold py-3">
+							Our Image Gallery
+						</h1>
+						<p class="gallery-text mb-3 lead">
+							Lorem ipsum dolor sit amet consectetur.
+						</p>
+					</div>
+				</div>
+
+				<div class="gallery-content">
+					<div class="container">
+						<swiper-container class="swiper mySwiper gallery-slider" pagination="true"
+							pagination-type="fraction" navigation="true" effect="coverflow" grab-cursor="true"
+							center-slides="true" slides-per-view="auto" coverflow-effect-rotate="50"
+							coverflow-effect-stretch="0" coverflow-effect-depth="100" coverflow-effect-modifier="1"
+							coverflow-effect-slide-shadows="true">
+							<swiper-slide>
+								<img src="/images/Gallery/clarke-sanders-JpCOGj0uIlI-unsplash.jpg"
+									class="img-fluid d-block" alt="image">
+							</swiper-slide>
+							<swiper-slide>
+								<img src="/images/Gallery/andra-c-taylor-jr-QJ5BWgOm3Mo-unsplash.jpg"
+									class="img-fluid d-block" alt="image">
+							</swiper-slide>
+							<swiper-slide>
+								<img src="/images/Gallery/alex-starnes-tbYPDBChsZU-unsplash.jpg"
+									class="img-fluid d-block" alt="image">
+							</swiper-slide>
+							<swiper-slide>
+								<img src="/images/Gallery/lashawn-dobbs-wOe_VGJe3TE-unsplash.jpg"
+									class="img-fluid d-block" alt="image">
+							</swiper-slide>
+							<swiper-slide>
+								<img src="/images/Gallery/clarke-sanders-HOQpBGL95Z8-unsplash.jpg"
+									class="img-fluid d-block" alt="image">
+							</swiper-slide>
+							<swiper-slide>
+								<img src="/images/Gallery/antreina-stone-0rfSUFi_BIY-unsplash.jpg"
+									class="img-fluid d-block" alt="image">
+							</swiper-slide>
+							<swiper-slide>
+								<img src="/images/Gallery/getty-images-JFOLYSEdOnM-unsplash.jpg"
+									class="img-fluid d-block" alt="image">
+							</swiper-slide>
+							<swiper-slide>
+								<img src="/images/Gallery/gideon-hezekiah-8YkE6veYNUw-unsplash.jpg"
+									class="img-fluid d-block" alt="image">
+							</swiper-slide>
+							<swiper-slide>
+								<img src="/images/Gallery/etty-fidele-J1jYLLlRpA4-unsplash.jpg"
+									class="img-fluid d-block" alt="image">
+							</swiper-slide>
+						</swiper-container>
+					</div>
+				</div>
+			</section>
+			<!-- End of Gallery -->
+
+			<!-- Begin Services -->
+			<!-- Section 3 -->
+			<section id="services" class="services container-fluid h-auto my-5">
+				<div class="services-header text-center">
+					<div class="container">
+						<h1 class="services-title display-5 fw-bold py-3">
+							Our Services
+						</h1>
+						<p class="services-text">
+							Lorem ipsum dolor sit amet consectetur.
+						</p>
+					</div>
+				</div>
+				<div class="services-content py-5">
+					<div class="container">
+						<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+							<div class="col py-5">
+								<div id="naturalHair" class="card text-bg-secondary h-100 shadow-lg">
+									<img src="/images/Service Cards/pexels-cottonbro-studio-3992874.jpg" alt=""
+										class="card-img-top img-fluid">
+
+									<div class="card-body">
+										<p class="card-title fs-5 fw-bold">Natural Hair Care</p>
+										<p class="card-text">
+											Lorem ipsum dolor sit amet consectetur risus diam
+											convallis sodales aenean. Faucibus dignissim nibh.
+										</p>
+										<a href="#" class="btn btn-secondary btn-outline-light">Take a Look</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col py-5">
+								<div id="braidingLocs" class="card text-bg-secondary h-100 shadow-lg">
+									<img src="/images/Service Cards/pexels-awajitono-etex-3482712.jpg" alt=""
+										class="card-img-top img-fluid">
+									<div class="card-body">
+										<p class="card-title fs-5 fw-bold">Braiding and Locing</p>
+										<p class="card-text">
+											Lorem ipsum dolor sit amet consectetur risus diam
+											convallis sodales aenean. Faucibus dignissim nibh.
+										</p>
+										<a href="#" class="btn btn-secondary btn-outline-light">Take a Look</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col py-5">
+								<div id="colorCuts" class="card shadow-lg text-bg-secondary h-100">
+									<img src="/images/Service Cards/pexels-godisable-jacob-1191520.jpg" alt=""
+										class="card-img-top img-fluid">
+									<div class="card-body">
+										<p class="card-title fs-5 fw-bold">Color and Cuts</p>
+										<p class="card-text">
+											Lorem ipsum dolor sit amet consectetur risus diam
+											convallis sodales aenean. Faucibus dignissim nibh.
+										</p>
+										<a href="#" class="btn btn-secondary btn-outline-light">Take a Look</a>
+									</div>
+								</div>
+							</div>
+							<div class="col py-5">
+								<div id="straightHair" class="card text-bg-secondary h-100 shadow-lg">
+									<img src="/images/Service Cards/pexels-nappy-936126.jpg" alt=""
+										class="card-img-top img-fluid">
+									<div class="card-body">
+										<p class="card-title fs-5 fw-bold">Straight Hairstyles</p>
+										<p class="card-text">
+											Lorem ipsum dolor sit amet consectetur risus diam
+											convallis sodales aenean. Faucibus dignissim nibh.
+										</p>
+										<a href="#" class="btn btn-secondary btn-outline-light">Take a Look</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Services -->
+
+			<!-- Begin Testimonials -->
+			<!-- Section 4 -->
+			<section id="testimonials" class="testimonials container-fluid my-5 py-5">
+				<div class="testimonials-content mb-5">
+					<div class="container py-2">
+						<div class="row align-items-center g-xxl-6">
+							<div class="col-lg-7 mb-5 mb-md-0">
+								<div class="row gx-md-5 gy-5">
+									<div class="col-md-6 col-xl-5 align-self-end">
+										<div class="card bg-light border-0 shadow rounded-3">
+											<div class="card-body p-4 p-xxl-5">
+												<div class="d-block position-relative">
+													<figure>
+														<blockquote class="blockquote">
+															<p class="mb-5 text-light">
+																<i class="">
+																	"Lorem ipsum dolor sit amet consectetur
+																	risus diam convallis sodales aenean.
+																	Faucibus dignissim nibh."
+																</i>
+															</p>
+														</blockquote>
+														<figcaption class="blockquote-footer">
+															<span class="fw-bold text-light">Aleatha
+																Crawford</span>&nbsp;<cite title="Source Title"
+																class="text-light">Customer, Loctician Services</cite>
+														</figcaption>
+													</figure>
 												</div>
+											</div>
+											<div class="card-footer mt-5">
+												<div class="d-block position-absolute bottom-0 end-0 p-2">
+													<svg xmlns="http://www.w3.org/2000/svg" width="4.5em" height="4.5em"
+														fill="#27130F" class="bi bi-quote" viewBox="0 0 16 16">
+														<path
+															d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z">
+													</svg>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Testimonial 1 -->
+
+									<div class="col-md-6 align-self-end">
+										<div class="d-block card border-0 shadow rounded-3 bg-light">
+											<div class="card-body p-4 p-xxl-5">
+												<div class="d-block positive-relative">
+													<figure>
+														<blockquote class="blockquote">
+															<p class="mb-5 text-light">
+																<i class="">
+																	“Vivamus sagittis lacus vel augue laoreet
+																	rutrum faucibus dolor auctor. Vestibulum id
+																	ligula porta felis euismod semper.”
+																</i>
+															</p>
+														</blockquote>
+														<figcaption class="blockquote-footer">
+															<span class="fw-bold text-light fs-6">Tamzin
+																Pernell,</span>&nbsp;<cite title="Source Title"
+																class="text-light">Barber Services</cite>
+														</figcaption>
+													</figure>
+												</div>
+											</div>
+											<div class="card-footer mt-5">
+												<div class="d-block position-absolute bottom-0 end-0 p-2">
+													<svg xmlns="http://www.w3.org/2000/svg" width="4.5em" height="4.5em"
+														fill="#27130F" class="bi bi-quote" viewBox="0 0 16 16">
+														<path
+															d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z">
+													</svg>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Testimonial 2 -->
+
+									<div class="col-md-6 col-xl-5 offset-xl-1">
+										<div class="d-block card bg-light border-0 shadow rounded-3">
+											<div class="card-body p-4 p-xxl-5">
+												<div class="position-relative">
+													<figure>
+														<blockquote class="blockquote">
+															<p class="mb-5 text-light">
+																<i class="">
+																	"Molestie nunc non blandit massa enim nec
+																	dui nunc mattis. Lectus arcu bibendum at
+																	varius. Sit amet porttitor eget dolor morbi
+																	non arcu risus. Mi bibendum neque egestas
+																	congue. Aenean pharetra magna ac placerat
+																	vestibulum lectus mauris."
+																</i>
+															</p>
+														</blockquote>
+														<figcaption class="blockquote-footer">
+															<span class="fw-bold fs-6 text-light">Senalda
+																Brooks,</span>&nbsp;
+															<cite title="Source Title" class="text-light">Weave
+																Services</cite>
+														</figcaption>
+													</figure>
+												</div>
+											</div>
+											<div class="card-footer mt-5">
+												<div class="d-block position-absolute bottom-0 end-0 p-2">
+													<svg xmlns="http://www.w3.org/2000/svg" width="4.5em" height="4.5em"
+														fill="#27130F" class="bi bi-quote" viewBox="0 0 16 16">
+														<path
+															d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z">
+													</svg>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Testimonial 3 -->
+
+									<div class="col-md-6 align-self-start">
+										<div class="d-block card bg-light border-0 shadow rounded-3">
+											<div class="card-body p-4 p-xxl-5">
+												<div class="d-block position-relative">
+													<figure>
+														<blockquote class="blockquote">
+															<p class="mb-5 text-light">
+																<i>
+																	"Blandit cursus risus at ultrices mi tempus
+																	imperdiet nulla malesuada. Eget felis eget
+																	nunc lobortis mattis aliquam. Lacus sed
+																	viverra tellus in hac. Sed vulputate odio ut
+																	enim blandit volutpat maecenas volutpat
+																	blandit. Luctus accumsan tortor posuere ac
+																	ut consequat semper viverra."
+																</i>
+															</p>
+														</blockquote>
+														<figcaption class="blockquote-footer">
+															<span class="fw-bold text-light fs-6">Keahi
+																Campbell,</span>&nbsp;
+															<cite title="Source Title" class="text-light">Coloring
+																Service</cite>
+														</figcaption>
+													</figure>
+												</div>
+											</div>
+											<div class="card-footer mt-5">
+												<div class="d-block position-absolute bottom-0 end-0 p-2">
+													<svg xmlns="http://www.w3.org/2000/svg" width="4.5em" height="4.5em"
+														fill="#27130F" class="bi bi-quote" viewBox="0 0 16 16">
+														<path
+															d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z" />
+													</svg>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Testimonial 4-->
+								</div>
+								<!-- Row 1 -->
+							</div>
+							<div class="col-lg-5">
+								<div class="d-block mb-3">
+									<div>
+										<h2 class="fw-bold display-6 mt-3 py-3 ps-lg-4">
+											Our Testimonials
+										</h2>
+									</div>
+								</div>
+								<div class="d-block mb-3 ps-lg-4">
+									<div>
+										<p class="fw-light">
+											Our customers are awesome. Check out what our clients
+											are saying about our salon!
+										</p>
+									</div>
+								</div>
+								<div class="d-block ps-lg-4">
+									<div>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+											Nunc et metus id ligula malesuada placerat sit amet quis
+											enim. Aliquam erat volutpat. In pellentesque scelerisque
+											auctor.
+										</p>
+									</div>
+								</div>
+								<div class="d-block ps-lg-4">
+									<a href="#services" class="btn btn-light" role="button">Learn More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Testimonial Section -->
+
+			<!-- Begin CTA-->
+			<section id="cta-book" class="cta text-center my-5 py-5">
+				<div class="row w-100 py-5">
+					<div class="col-lg-6 col-xl-5 mx-auto">
+						<div class="mb-3">
+							<h1 class="display-4 py-3">Make Your Appointment Today!</h1>
+						</div>
+
+						<div class="mb-5">
+							<p class="lead">
+								Lorem ipsum dolor sit amet consectetur risus diam convallis
+								sodales aenean. Faucibus dignissim nibh.
+							</p>
+						</div>
+						<div class="cta-button-container">
+							<a href="#" class="btn btn-primary btn-lg" role="button" data-bs-toggle="modal"
+								data-bs-target="#bookingModal">Book Now!</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End CTA -->
+			<!-- Begin Modal Form -->
+			<section>
+				<div id="bookingModal" class="modal fade" tabindex="-1" aria-labelledby="bookingModalLabel"
+					aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+					<div class="modal-dialog">
+						<div class="modal-content bg-dark">
+							<div class="modal-header my-2">
+								<p class="modal-title text-white fs-5">
+									Novah Appointment Booking Form
+								</p>
+								<button class="btn-close btn-light bg-light" data-bs-dismiss="modal"
+									aria-label="Close"></button>
+							</div>
+							<div class="modal-body mx-3 bg-dark">
+								<div class="row justify-content-center align-items-center h-100">
+									<div class="col-12">
+										<div class="card rounded-3 bg-dark">
+											<img class="w-100 mx-auto p-4"
+												src="/images/CTA/pexels-frecelynne-roman-10427813.jpg" alt="Form photo"
+												style="border-radius: 2.5rem">
+											<div class="card-body">
+												<form action="#" class="px-md-1 bg-dark">
+													<div class="form-outline mb-4">
+														<label for="fullName" class="visually-hidden">
+															First and Last Name
+														</label>
+														<input type="text" class="form-control text-light" id="fullName"
+															placeholder="First and Last Name"
+															aria-hidden="First and Last Name" />
+													</div>
+													<div class="form-outline mb-4">
+														<label for="email" class="visually-hidden">
+															Email
+														</label>
+														<input type="text" class="form-control text-light" id="email"
+															placeholder="Email" aria-hidden="Email" />
+													</div>
+													<div class="form-outline mb-4">
+														<label for="phoneNumber" class="visually-hidden">
+															Phone Number
+														</label>
+														<input type="text" class="form-control text-light"
+															id="phoneNumber" placeholder="Phone Number"
+															aria-hidden="Phone Number" />
+													</div>
+													<div class="row">
+														<div class="col mb-4">
+															<select name="#" id="" class="form-select"
+																aria-label="Day selection">
+																<option selected="What day works best for you?">
+																	What day works best for you?
+																</option>
+																<option value="Monday" class="value">
+																	Monday
+																</option>
+																<option value="Tuesday" class="value">
+																	Tuesday
+																</option>
+																<option value="Wednesday" class="value">
+																	Wednesday
+																</option>
+																<option value="Thursday" class="value">
+																	Thursday
+																</option>
+																<option value="Friday" class="value">
+																	Friday
+																</option>
+																<option value="Saturday" class="value">
+																	Saturday
+																</option>
+															</select>
+														</div>
+													</div>
+													<!-- End Row -->
+													<div class="row">
+														<div class="col mb-4">
+															<select name="#" class="form-select"
+																aria-label="Time of day">
+																<option selected="What time works best for you?">
+																	What time works best for you?
+																</option>
+																<option value="Morning" class="value">
+																	Morning
+																</option>
+																<option value="Afternooon" class="value">
+																	Afternoon
+																</option>
+																<option value="Evening" class="value">
+																	Evening
+																</option>
+															</select>
+														</div>
+													</div>
+													<!-- End Row -->
+													<div class="row">
+														<div class="form-outline">
+															<textarea name="" id="messageArea" style="height: 10rem"
+																class="form-control"
+																placeholder="Leave us a message."></textarea>
+															<label for="messageArea" class="form-label"></label>
+														</div>
+													</div>
+													<!-- End Row -->
+													<button class="btn btn-secondary btn-lg my-3">
+														Submit
+													</button>
+												</form>
 											</div>
 										</div>
 									</div>
@@ -1042,15 +744,26 @@
 							</div>
 						</div>
 					</div>
-				</section>
-				<!-- End Modal -->
+				</div>
+			</section>
+			<!-- End Modal -->
 
-				<!-- Begin Contact -->
-				<section id="contact" class="contact container-fluid my-5 py-5">
+			<!-- Begin Contact -->
+			<section id="contact" class="contact container-fluid my-5 py-5">
+				<div class="contact-header text-center mb-5">
 					<div class="container">
-						<div
-							class="row min-vh-25 align-items-start text-center text-md-start"
-						>
+						<h2 class="contact-title display-5 fw-bold py-3">
+							Contact Us...
+						</h2>
+						<p class="contact-text mb-3 lead">
+							Lorem ipsum dolor sit amet consectetur.
+						</p>
+					</div>
+				</div>
+				<div class="contact-content">
+					<div class="container">
+
+						<div class="row min-vh-25 align-items-start text-center text-md-start">
 							<div class="col-md-4 mb-4 mb-md-0">
 								<div class="card bg-dark border border-dark shadow-lg h-100">
 									<div class="card-header">
@@ -1127,84 +840,77 @@
 							<!-- /col -->
 						</div>
 					</div>
-				</section>
-				<!-- End Contact -->
-			</main>
+				</div>
+			</section>
+			<!-- End Contact -->
+		</main>
+	</div>
+
+	<footer class="footer container-fluid d-flex flex-column align-items-center w-100 h-auto">
+		<div
+			class="container d-flex flex-column flex-md-row justify-content-between align-items-center py-3 my-4 h-100">
+			<div class="col-md-4 d-flex align-items-center py-5 p-md-0">
+				<h3><a href="#" class="navbar-brand fs-2 p-2">Novah</a></h3>
+			</div>
+
+			<div class="col-md-4 pb-5 p-md-0">
+				<ul class="navbar-nav d-flex flex-column flex-md-row justify-content-evenly align-items-center">
+					<li class="nav-item p-2">
+						<a href="#top" class="nav-link active">Home</a>
+					</li>
+					<li class="nav-item p-2">
+						<a href="#about" class="nav-link active">About</a>
+					</li>
+					<li class="nav-item p-2">
+						<a href="#gallery" class="nav-link active">Gallery</a>
+					</li>
+					<li class="nav-item p-2">
+						<a href="#services" class="nav-link active">Services</a>
+					</li>
+					<li class="nav-item p-2">
+						<a href="#testimonials" class="nav-link active">Testimonials</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-md-4 d-flex flex-row justify-content-center justify-content-md-end p-md-0">
+				<div class="icon-container p-2">
+					<a href="#">
+						<i class="bi bi-facebook text-white"></i>
+					</a>
+				</div>
+				<div class="icon-container p-2">
+					<a href="#">
+						<i class="bi bi-twitter text-white"></i>
+					</a>
+				</div>
+				<div class="icon-container p-2">
+					<a href="#">
+						<i class="bi bi-instagram text-white"></i>
+					</a>
+				</div>
+			</div>
 		</div>
+		<!-- /container -->
+		<hr class="hr">
+		<div class="container copyright">
+			<p class="text-light-emphasis text-center">
+				©️ 2023 RebelCow Web Design
+			</p>
+		</div>
+	</footer>
 
-		<footer
-			class="footer container-fluid d-flex flex-column align-items-center w-100 h-auto"
-		>
-			<div
-				class="container d-flex flex-column flex-md-row justify-content-between align-items-center py-3 my-4 h-100"
-			>
-				<div class="col-md-4 d-flex align-items-center py-5 p-md-0">
-					<h3><a href="#" class="navbar-brand fs-2 p-2">Novah</a></h3>
-				</div>
+	<!-- Scripts -->
+	<!-- Bootstrap Framework Script -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+		crossorigin="anonymous"></script>
 
-				<div class="col-md-4 pb-5 p-md-0">
-					<ul
-						class="navbar-nav d-flex flex-column flex-md-row justify-content-evenly align-items-center"
-					>
-						<li class="nav-item p-2">
-							<a href="#top" class="nav-link active">Home</a>
-						</li>
-						<li class="nav-item p-2">
-							<a href="#about" class="nav-link active">About</a>
-						</li>
-						<li class="nav-item p-2">
-							<a href="#gallery" class="nav-link active">Gallery</a>
-						</li>
-						<li class="nav-item p-2">
-							<a href="#services" class="nav-link active">Services</a>
-						</li>
-						<li class="nav-item p-2">
-							<a href="#testimonials" class="nav-link active">Testimonials</a>
-						</li>
-					</ul>
-				</div>
+	<!-- Swiper JS-->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 
-				<div
-					class="col-md-4 d-flex flex-row justify-content-center justify-content-md-end p-md-0"
-				>
-					<div class="icon-container p-2">
-						<a href="#">
-							<i class="bi bi-facebook text-white"></i>
-						</a>
-					</div>
-					<div class="icon-container p-2">
-						<a href="#">
-							<i class="bi bi-twitter text-white"></i>
-						</a>
-					</div>
-					<div class="icon-container p-2">
-						<a href="#">
-							<i class="bi bi-instagram text-white"></i>
-						</a>
-					</div>
-				</div>
-			</div>
-			<!-- /container -->
-			<hr class="hr" />
-			<div class="container copyright">
-				<p class="text-light-emphasis text-center">
-					©️ 2023 RebelCow Web Design
-				</p>
-			</div>
-		</footer>
+	<!-- Developer Script-->
+	<script src="/js/scripts.js"></script>
+</body>
 
-		<!-- Scripts -->
-		<!-- Bootstrap Framework Script -->
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-			crossorigin="anonymous"
-		></script>
-
-		<!-- Swiper JS-->
-		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
-
-		<!-- Developer Script-->
-		<script src="/js/scripts.js"></script>
-	</body>
 </html>
