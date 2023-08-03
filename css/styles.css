@@ -271,6 +271,9 @@ nav {
 /**************************/
 /*     Modal */
 /**************************/
+.modal-content .modal-header .modal-title {
+	font-size: 1.8rem !important;
+}
 .form-control {
 	background-color: inherit;
 	color: #585b5f !important;
