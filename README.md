@@ -8,3 +8,8 @@ Then based on my inspiration from a picture, I created the color scheme. Finally
 ### Screenshots
 #### Original Wireframe
 ![Landing Page Wireframe](./images/Screenshots/NovahWireframe1.png)
+#### Landing Page Design
+![Landing Page Design--Mobile, Tablet, Desktop](./images/Screenshots/NovahDesktopFigmaDesign-sidesmall.png)
+
+#### Inspiration Photo and Color Scheme
+![Inspiration Photo & Color Scheme](./images/Screenshots/NovahColorScheme.png)
