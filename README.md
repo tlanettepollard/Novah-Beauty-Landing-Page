@@ -14,6 +14,9 @@ Then based on my inspiration from a picture, I created the color scheme. Finally
 #### Inspiration Photo and Color Scheme
 ![Inspiration Photo & Color Scheme](./images/Screenshots/NovahColorScheme.png)
 
+#### Final Version of Landing Page
+![Novah Beauty Salon](./images/Screenshots/NovahBeautyDesktopLive.png)
+
 ### Built With
 - Semantic HTML5 markup
 - Bootstrap5 Framework
