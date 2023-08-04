@@ -6,6 +6,5 @@ I've been working on my new design, _Novah Beauty Salon_, for couple of months. 
 Then based on my inspiration from a picture, I created the color scheme. Finally, I designed the desktop, tablet, and mobile page versions of my landing page. 
 
 ### Screenshots
-
 #### Original Wireframe
-![Landing Page Wirefram](./images/Screenshots/NovahWireframe1.png)
+![Landing Page Wireframe](./images/Screenshots/NovahWireframe1.png)
