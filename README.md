@@ -32,3 +32,9 @@ Then based on my inspiration from a picture, I created the color scheme. Finally
 - [Changing Swiper Nav Buttons Color](https://oxygen4fun.supadezign.com/tips/swiperjs-tips-and-good-practice/#arrows)
 - [Creating a Color System in Figma | 3 Easy Methods](https://www.youtube.com/watch?v=ZHhFWIq-viQ)
 
+### Credits for Images
+- Header Carousel: [Unsplash.com](https://unsplash.com/collections/X3gP2XVOchM/beautiful-black-women)
+- Gallery: [Unsplash.com](https://unsplash.com/collections/X3gP2XVOchM/beautiful-black-women)
+- Service Cards: [Pexels.com Collection 1](https://www.pexels.com/collections/people-black-people-0ilgzdh/) and [Pexels.com Collection 2](https://www.pexels.com/collections/business-backgrounds-ko8hxeg/);
+- Contact Form: [Pexels.com Collection 2](https://www.pexels.com/collections/business-backgrounds-ko8hxeg/)
+
